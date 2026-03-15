@@ -1,0 +1,80 @@
+name: 📅 Update Discussion iCal
+
+on:
+  schedule:
+    # 毎日 JST 00:05 に実行 (UTC 15:05)
+    - cron: "5 15 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (ファイルをコミットしない)"
+        required: false
+        default: "false"
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  update-ical:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # ---------------------------------------------------------------
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ---------------------------------------------------------------
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ---------------------------------------------------------------
+      - name: 📆 Set JST date env
+        run: |
+          echo "JST_DATE=$(TZ='Asia/Tokyo' date '+%Y-%m-%d')" >> "$GITHUB_ENV"
+          echo "JST_MONTH=$(TZ='Asia/Tokyo' date '+%Y-%m')"   >> "$GITHUB_ENV"
+
+      # ---------------------------------------------------------------
+      - name: 🔄 Run iCal update script
+        run: python .github/scripts/update_ical.py
+
+      # ---------------------------------------------------------------
+      - name: 📊 Show diff summary
+        run: |
+          echo "=== feed.ical 変更差分 ==="
+          git diff --stat feed.ical || true
+          echo ""
+          echo "=== Archive/ 変更差分 ==="
+          git diff --stat Archive/ || true
+
+      # ---------------------------------------------------------------
+      - name: 💾 Commit and push
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add feed.ical Archive/ 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "ℹ️  変更なし。コミットをスキップします。"
+          else
+            git commit -m "📅 Update iCal [${{ env.JST_DATE }}]
+
+          - feed.ical へ本日の Discussion を追記
+          - 月をまたぐ場合は Archive/${{ env.JST_MONTH }}.ical へ移動
+          
+          [skip ci]"
+            git push
+            echo "✅ Push 完了"
+          fi
+
+      # ---------------------------------------------------------------
+      - name: 🚿 Dry run notice
+        if: ${{ inputs.dry_run == 'true' }}
+        run: echo "⚠️  Dry run モード。ファイルはコミットされませんでした。"
