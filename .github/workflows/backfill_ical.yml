@@ -1,0 +1,56 @@
+name: 🗄️ Backfill iCal (全期間一括処理)
+
+on:
+  workflow_dispatch:   # 手動実行のみ（一回きり用）
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 🗄️ Run backfill script
+        run: python .github/scripts/backfill_ical.py
+
+      - name: 📊 Show generated files
+        run: |
+          echo "=== feed.ical ==="
+          wc -l feed.ical || echo "(未生成)"
+          echo ""
+          echo "=== Archive/ ==="
+          ls -lh Archive/ 2>/dev/null || echo "(なし)"
+
+      - name: 💾 Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add feed.ical Archive/ 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "ℹ️  変更なし。コミットをスキップします。"
+          else
+            MONTH=$(TZ='Asia/Tokyo' date '+%Y-%m')
+            git commit -m "🗄️ Backfill iCal (全期間一括処理) [$MONTH]
+
+          - DiscussArchive.md の全データを変換
+          - 当月分 → feed.ical
+          - 過去月分 → Archive/{yyyy-mm}.ical
+          
+          [skip ci]"
+            git push
+            echo "✅ Push 完了"
+          fi
