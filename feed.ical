@@ -132,4 +132,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/29
 UID:discussion-29-2026-03-14@htvoffcial
 DESCRIPTION:- 毎日タイトルとディスカスページへのリンクをアーカイブしているページ [DiscussArchive.md](https://r1.harutv.me/Dis“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:わかってはいるんだけど、どうコミュ力無さすぎて
+URL:https://github.com/htvoffcial/htvoffcial/discussions/34
+UID:discussion-34-2026-03-15@htvoffcial
+DESCRIPTION:話の始めは挨拶から？“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:Special Interview:Actionsについて
+URL:https://github.com/htvoffcial/htvoffcial/discussions/33
+UID:discussion-33-2026-03-15@htvoffcial
+DESCRIPTION:はるはる:そう、ものの昨日くらいまでPublicリポジトリはActionsの3000分カウントされないことを知らなかったんですよ はるはる:なので重い腰を上げて“…”
+END:VEVENT
 END:VCALENDAR
