@@ -3,7 +3,7 @@ name: 📅 Update Discussion iCal
 on:
   schedule:
     # 毎日 JST 00:05 に実行 (UTC 15:05)
-    - cron: "5 15 * * *"
+    - cron: "0 17 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
