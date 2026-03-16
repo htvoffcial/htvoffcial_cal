@@ -148,4 +148,28 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/33
 UID:discussion-33-2026-03-15@htvoffcial
 DESCRIPTION:はるはる:そう、ものの昨日くらいまでPublicリポジトリはActionsの3000分カウントされないことを知らなかったんですよ はるはる:なので重い腰を上げて“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:大テスト誤字集
+URL:https://github.com/htvoffcial/htvoffcial/discussions/39
+UID:discussion-39-2026-03-16@htvoffcial
+DESCRIPTION:| | | | - | - | | 浸水コロイド | 親水コロイド | | 謹しんで | 謹んで | | 腸わる | 賜る | | 摩薩 | 摩擦 | | 由諸“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:参考書をもらったので、歴史でしっかり勉強したい
+URL:https://github.com/htvoffcial/htvoffcial/discussions/38
+UID:discussion-38-2026-03-16@htvoffcial
+DESCRIPTION:本日、テスト返却1教科目は、理系でスタート "世の中のほとんどの現象は物理で説明できる" 数字に慣れることができたのは確かに物理のおかげだったかも“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:赤点出ませんように
+URL:https://github.com/htvoffcial/htvoffcial/discussions/35
+UID:discussion-35-2026-03-16@htvoffcial
+DESCRIPTION:学業成就祈願 (成績成就) “…”
+END:VEVENT
 END:VCALENDAR
