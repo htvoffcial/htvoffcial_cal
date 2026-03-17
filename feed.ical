@@ -172,4 +172,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/35
 UID:discussion-35-2026-03-16@htvoffcial
 DESCRIPTION:学業成就祈願 (成績成就) “…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:TVerでHERO 2001の配信見た
+URL:https://github.com/htvoffcial/htvoffcial/discussions/41
+UID:discussion-41-2026-03-17@htvoffcial
+DESCRIPTION:ずっと見たかったから配信始まったのはありがてぇ“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:芋けんぴ😋
+URL:https://github.com/htvoffcial/htvoffcial/discussions/40
+UID:discussion-40-2026-03-17@htvoffcial
+DESCRIPTION:最近すごく食事がジャンクな感じするなー健康志向目ざさねば？ “…”
+END:VEVENT
 END:VCALENDAR
