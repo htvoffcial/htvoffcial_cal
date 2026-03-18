@@ -188,4 +188,28 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/40
 UID:discussion-40-2026-03-17@htvoffcial
 DESCRIPTION:最近すごく食事がジャンクな感じするなー健康志向目ざさねば？ “…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:午前日課神やな〜まあ、午後を何に使うかを決めねばな！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/44
+UID:discussion-44-2026-03-18@htvoffcial
+DESCRIPTION:何やってるんですか？勉強してください！！！ :shipit:“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:明後日3月20日は祝日！なんて嬉しい
+URL:https://github.com/htvoffcial/htvoffcial/discussions/43
+UID:discussion-43-2026-03-18@htvoffcial
+DESCRIPTION:春分の日、法律で自然をたたえ、生物をいつくしむと定められた日！“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:学習の計画の立て方
+URL:https://github.com/htvoffcial/htvoffcial/discussions/42
+UID:discussion-42-2026-03-18@htvoffcial
+DESCRIPTION:目標設定→不足→対策→いつかを決める“…”
+END:VEVENT
 END:VCALENDAR
