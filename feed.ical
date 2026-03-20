@@ -236,4 +236,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/45
 UID:discussion-45-2026-03-19@htvoffcial
 DESCRIPTION:うぇー2日ぶりの雨やん。雨の降る日がは、これからますます増えていくんだろうけどね“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:まずい！今日何もしてない！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/48
+UID:discussion-48-2026-03-20@htvoffcial
+DESCRIPTION:お兄さんに伝えることがない！困ったなぁ😅“…”
+END:VEVENT
 END:VCALENDAR
