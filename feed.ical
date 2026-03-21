@@ -244,4 +244,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/48
 UID:discussion-48-2026-03-20@htvoffcial
 DESCRIPTION:お兄さんに伝えることがない！困ったなぁ😅“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:Spotifyで突然流れてきたサカナクション 雨は気まぐれ、なかなか良い曲
+URL:https://github.com/htvoffcial/htvoffcial/discussions/50
+UID:discussion-50-2026-03-21@htvoffcial
+DESCRIPTION:2008年か〜“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:本日は完全に糖尿病まっしぐらな1.5Lのオレンジジュースを2本持って帰ってきました
+URL:https://github.com/htvoffcial/htvoffcial/discussions/49
+UID:discussion-49-2026-03-21@htvoffcial
+DESCRIPTION:今日で飲み干すのはやめておこう。そして、**しっかり歯を磨かねば！**“…”
+END:VEVENT
 END:VCALENDAR
