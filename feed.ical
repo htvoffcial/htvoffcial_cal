@@ -284,4 +284,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/51
 UID:discussion-51-2026-03-22@htvoffcial
 DESCRIPTION:まともにチャットも使えないことは困るなぁ“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:江戸川を走ってきた(軽め)
+URL:https://github.com/htvoffcial/htvoffcial/discussions/54
+UID:discussion-54-2026-03-23@htvoffcial
+DESCRIPTION:運動不足解消！少し雨があたりながらも後半は晴れてきて、1時間くらい気持ちよくて走り続けてた！ ![IMG_20260323_113340](https://gi“…”
+END:VEVENT
 END:VCALENDAR
