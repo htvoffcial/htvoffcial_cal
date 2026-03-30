@@ -340,4 +340,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/60
 UID:discussion-60-2026-03-29@htvoffcial
 DESCRIPTION:動画編集“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:今朝はしっかりラジオ体操したよ！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/61
+UID:discussion-61-2026-03-30@htvoffcial
+DESCRIPTION:フルコーラスしっかり踊り抜いてスッキリ“…”
+END:VEVENT
 END:VCALENDAR
