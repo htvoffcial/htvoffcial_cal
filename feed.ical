@@ -348,4 +348,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/61
 UID:discussion-61-2026-03-30@htvoffcial
 DESCRIPTION:フルコーラスしっかり踊り抜いてスッキリ“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:プレビュー重すぎて画と音が意図したとおりに合わん、、
+URL:https://github.com/htvoffcial/htvoffcial/discussions/62
+UID:discussion-62-2026-03-31@htvoffcial
+DESCRIPTION:一旦書き出すのまき“…”
+END:VEVENT
 END:VCALENDAR
