@@ -4,4 +4,20 @@ PRODID:-//htvoffcial//DiscussArchive//JA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:htvoffcial Discussions
 X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:長いようで、短かい春休み。残すところあと3日！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/64
+UID:discussion-64-2026-04-02@htvoffcial
+DESCRIPTION:ええ、小論文完成するかなぁ“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:あぶねーギリギリアウトだわ、お兄さんに読んでもらえないこれ多分
+URL:https://github.com/htvoffcial/htvoffcial/discussions/63
+UID:discussion-63-2026-04-02@htvoffcial
+DESCRIPTION:昨日書くの忘れてた“…”
+END:VEVENT
 END:VCALENDAR
