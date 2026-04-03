@@ -20,4 +20,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/63
 UID:discussion-63-2026-04-02@htvoffcial
 DESCRIPTION:昨日書くの忘れてた“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:読めば読むほど胸が痛む話だなぁ…辺野古ボート転覆事故
+URL:https://github.com/htvoffcial/htvoffcial/discussions/65
+UID:discussion-65-2026-04-03@htvoffcial
+DESCRIPTION:[沖縄研修旅行の異質さ 辺野古ボート転覆事故遺族メモ 2026年4月1日 17:48](https://note.com/beloved_tomoka/n/nd“…”
+END:VEVENT
 END:VCALENDAR
