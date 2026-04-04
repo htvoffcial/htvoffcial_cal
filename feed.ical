@@ -28,4 +28,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/65
 UID:discussion-65-2026-04-03@htvoffcial
 DESCRIPTION:[沖縄研修旅行の異質さ 辺野古ボート転覆事故遺族メモ 2026年4月1日 17:48](https://note.com/beloved_tomoka/n/nd“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:音楽サブスクの歌詞みたいにお兄さんのポッドキャスト的に聴けるシステムを完成させた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/66
+UID:discussion-66-2026-04-04@htvoffcial
+DESCRIPTION:フォームから試してみる ちなみに、Actionsで音声素材も生成し、HLS技術でそのページを見る・聞くユーザの帯域を節約しながら利用できるように！ HLS.js“…”
+END:VEVENT
 END:VCALENDAR
