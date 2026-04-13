@@ -124,4 +124,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/83
 UID:discussion-83-2026-04-12@htvoffcial
 DESCRIPTION:4月11日、間に合わず…“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
+SUMMARY:今日もまた、何気ない1日が終わる。あ、英検の申し込みも忘れないようにしないと！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/86
+UID:discussion-86-2026-04-13@htvoffcial
+DESCRIPTION:電子時間割表作ったけど便利だったな、作って正解！ 45分授業と50分授業の切り替えに対応した、タイムラインモード(今やってる授業や休み時間と次まで)と全体モード“…”
+END:VEVENT
 END:VCALENDAR
