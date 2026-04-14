@@ -132,4 +132,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/86
 UID:discussion-86-2026-04-13@htvoffcial
 DESCRIPTION:電子時間割表作ったけど便利だったな、作って正解！ 45分授業と50分授業の切り替えに対応した、タイムラインモード(今やってる授業や休み時間と次まで)と全体モード“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY:文転してから1週間
+URL:https://github.com/htvoffcial/htvoffcial/discussions/87
+UID:discussion-87-2026-04-14@htvoffcial
+DESCRIPTION:前後に理系の勉強以外の学校での出来事があったのもあるだろうけど、世界が怖くなくなった感覚。 でも、理系にいたから文系でも自信を持てるってところもありそう！“…”
+END:VEVENT
 END:VCALENDAR
