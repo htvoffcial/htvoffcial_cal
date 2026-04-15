@@ -140,4 +140,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/87
 UID:discussion-87-2026-04-14@htvoffcial
 DESCRIPTION:前後に理系の勉強以外の学校での出来事があったのもあるだろうけど、世界が怖くなくなった感覚。 でも、理系にいたから文系でも自信を持てるってところもありそう！“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260415
+DTEND;VALUE=DATE:20260416
+SUMMARY:結局、自分の仕事は変わらないけど
+URL:https://github.com/htvoffcial/htvoffcial/discussions/88
+UID:discussion-88-2026-04-15@htvoffcial
+DESCRIPTION:勤め上げるために、最後の力を絞り、そして果てたい。 コンピューター部がたとえ廃部しようとも。“…”
+END:VEVENT
 END:VCALENDAR
