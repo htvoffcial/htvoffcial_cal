@@ -172,4 +172,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/91
 UID:discussion-91-2026-04-18@htvoffcial
 DESCRIPTION:最近になって部活がえっぐいストレスになるのなんなん？“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:お兄さんが毎日アーカイブされるようになったよ！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/93
+UID:discussion-93-2026-04-19@htvoffcial
+DESCRIPTION:本日より、Internet Archiveが運営するWayback MachineのSPN(SavePageNOW)との連携を始めました！ 毎日11:08にお兄“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:だしまき玉子 is supreme
+URL:https://github.com/htvoffcial/htvoffcial/discussions/92
+UID:discussion-92-2026-04-19@htvoffcial
+DESCRIPTION:食パンにだし巻き卵とウインナーを挟んで堪能するひととき“…”
+END:VEVENT
 END:VCALENDAR
