@@ -252,4 +252,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/99
 UID:discussion-99-2026-04-23@htvoffcial
 DESCRIPTION:部活動の体験入部のポスターを印刷してから残った30円、コンビニ印刷だったけど、スケール的には正解だったかなと。やっぱね、些細というか普通だけどレーザープリンター“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260425
+SUMMARY:1週間終わり！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/102
+UID:discussion-102-2026-04-24@htvoffcial
+DESCRIPTION:金曜日の心地よい暖かさを感じながら、ゆっくり過ごしてましたが、日本史のノート整理をしたり世界史の準備を進めてたりしてました“…”
+END:VEVENT
 END:VCALENDAR
