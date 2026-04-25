@@ -260,4 +260,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/102
 UID:discussion-102-2026-04-24@htvoffcial
 DESCRIPTION:金曜日の心地よい暖かさを感じながら、ゆっくり過ごしてましたが、日本史のノート整理をしたり世界史の準備を進めてたりしてました“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260426
+SUMMARY:CI/C兄(シーアイ/シーニイ)　継続的インテグレーション、継続的お兄さん
+URL:https://github.com/htvoffcial/htvoffcial/discussions/103
+UID:discussion-103-2026-04-25@htvoffcial
+DESCRIPTION:私のプロフィールで、体操のお兄さんは継続的にDiscussionsを要約してくれています。 あとライセンス期間切れに向けて対応完了“…”
+END:VEVENT
 END:VCALENDAR
