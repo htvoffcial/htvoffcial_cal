@@ -268,4 +268,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/103
 UID:discussion-103-2026-04-25@htvoffcial
 DESCRIPTION:私のプロフィールで、体操のお兄さんは継続的にDiscussionsを要約してくれています。 あとライセンス期間切れに向けて対応完了“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:美容室の涼しげなドライヤーの風
+URL:https://github.com/htvoffcial/htvoffcial/discussions/104
+UID:discussion-104-2026-04-26@htvoffcial
+DESCRIPTION:少し前に、予約を早めてもらって今日切ることになりました。 長髪を清算して夏モードです！“…”
+END:VEVENT
 END:VCALENDAR
