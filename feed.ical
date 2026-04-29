@@ -284,4 +284,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/105
 UID:discussion-105-2026-04-27@htvoffcial
 DESCRIPTION:危なかったー\, なんとか回避！ ちなみに、今日はひどい雨だったね。外歩いてたら、いつの間にか靴下の存在がなくなっていたように感じた。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:やっぱ、部活ある日は疲弊してひと言残せないね
+URL:https://github.com/htvoffcial/htvoffcial/discussions/106
+UID:discussion-106-2026-04-29@htvoffcial
+DESCRIPTION:昨日も書けなかったよ“…”
+END:VEVENT
 END:VCALENDAR
