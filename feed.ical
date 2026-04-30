@@ -292,4 +292,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/106
 UID:discussion-106-2026-04-29@htvoffcial
 DESCRIPTION:昨日も書けなかったよ“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:最近ははちみつと刻んだ生姜が好き
+URL:https://github.com/htvoffcial/htvoffcial/discussions/107
+UID:discussion-107-2026-04-30@htvoffcial
+DESCRIPTION:流石に明日は学校休校にならん？大雨らしいぞ？“…”
+END:VEVENT
 END:VCALENDAR
