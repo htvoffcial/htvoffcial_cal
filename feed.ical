@@ -28,4 +28,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/109
 UID:discussion-109-2026-05-02@htvoffcial
 DESCRIPTION:というごく一般論“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:ロースカツ丼を手作り！卵とじもうまくいって非常に満足
+URL:https://github.com/htvoffcial/htvoffcial/discussions/112
+UID:discussion-112-2026-05-03@htvoffcial
+DESCRIPTION:玉ねぎ煮込むときの味付けは濃すぎたから流石に次からは50ccくらい水入れよ、ロースカツは完璧！“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:CLIでパスを打ち間違えた時、長いとカーソルが目的の位置に来るまで時間かかって暇になる
+URL:https://github.com/htvoffcial/htvoffcial/discussions/111
+UID:discussion-111-2026-05-03@htvoffcial
+DESCRIPTION:そしてイライラする そんなあなた！ ### 1. 基本のカーソル移動ショートカット キーボードの端から端まで指を動かす必要はありません。 - Ctrl + A:“…”
+END:VEVENT
 END:VCALENDAR
