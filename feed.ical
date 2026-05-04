@@ -44,4 +44,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/111
 UID:discussion-111-2026-05-03@htvoffcial
 DESCRIPTION:そしてイライラする そんなあなた！ ### 1. 基本のカーソル移動ショートカット キーボードの端から端まで指を動かす必要はありません。 - Ctrl + A:“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260504
+DTEND;VALUE=DATE:20260505
+SUMMARY:ボールの初速度をよくみて合わせる
+URL:https://github.com/htvoffcial/htvoffcial/discussions/115
+UID:discussion-115-2026-05-04@htvoffcial
+DESCRIPTION:## 狙った位置にボールを確実に飛ばす - 力みすぎない - 足を振り被ってから、素早くボールの初速度に合わせながら足を通す ちなみに、昨夜に挑戦したカツ丼でし“…”
+END:VEVENT
 END:VCALENDAR
