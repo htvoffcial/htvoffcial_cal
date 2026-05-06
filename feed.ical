@@ -60,4 +60,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/116
 UID:discussion-116-2026-05-05@htvoffcial
 DESCRIPTION:お兄さんの開発経緯ではありませんが、存在意義をいい感じにまとめられていると思います。 前に書いた記事のため、その時から大きくスタックも変化しているところもありま“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:老いと衰えの、はる爺
+URL:https://github.com/htvoffcial/htvoffcial/discussions/117
+UID:discussion-117-2026-05-06@htvoffcial
+DESCRIPTION:いやー、カレンダーを読み間違えるとか、ほんと老いと衰えを感じる。 流石に寝る前に画面見るのやめたい。“…”
+END:VEVENT
 END:VCALENDAR
