@@ -68,4 +68,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/117
 UID:discussion-117-2026-05-06@htvoffcial
 DESCRIPTION:いやー、カレンダーを読み間違えるとか、ほんと老いと衰えを感じる。 流石に寝る前に画面見るのやめたい。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+SUMMARY:シャーペン強く握りすぎて指痛い
+URL:https://github.com/htvoffcial/htvoffcial/discussions/118
+UID:discussion-118-2026-05-07@htvoffcial
+DESCRIPTION:どうすればええ？ とりあえず冷やしたい 追伸、太めのグリップをシャーペンのつけてみるのもいいらしい“…”
+END:VEVENT
 END:VCALENDAR
