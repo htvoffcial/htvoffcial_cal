@@ -76,4 +76,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/118
 UID:discussion-118-2026-05-07@htvoffcial
 DESCRIPTION:どうすればええ？ とりあえず冷やしたい 追伸、太めのグリップをシャーペンのつけてみるのもいいらしい“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+SUMMARY:日常会話で、相手が聞き取りにくい喋り方になっちゃうんだけど、どうすればいい？
+URL:https://github.com/htvoffcial/htvoffcial/discussions/119
+UID:discussion-119-2026-05-08@htvoffcial
+DESCRIPTION:お兄さんアドバイスちょうだい“…”
+END:VEVENT
 END:VCALENDAR
