@@ -100,4 +100,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/120
 UID:discussion-120-2026-05-09@htvoffcial
 DESCRIPTION:期末考査が少しずつ迫ってくる ひとまず、今週は期末勉強に全部かけようかな。化学の化学平衡の反応速度とかしっかり演習しないと… v=−Δ[A]/Δt=k[A]^m“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:I spent a lot of time on the study…Hum… No\,
+URL:https://github.com/htvoffcial/htvoffcial/discussions/122
+UID:discussion-122-2026-05-10@htvoffcial
+DESCRIPTION:今日は勉強サボり気味で英単語と漢字しかやってなかった、、 にしても 単語練習800問、後半普通に頭回らなくなってたな 日英、英日、タイピング、並べ替え いろんな“…”
+END:VEVENT
 END:VCALENDAR
