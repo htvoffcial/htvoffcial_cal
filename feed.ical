@@ -116,4 +116,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/123
 UID:discussion-123-2026-05-11@htvoffcial
 DESCRIPTION:Wifi5の方も80MHz幅にしてやっと有線と同じ速度出るね しかしVDSL\,100M….(お察し身)“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+SUMMARY:英単語テスト、合格で課題回避
+URL:https://github.com/htvoffcial/htvoffcial/discussions/125
+UID:discussion-125-2026-05-13@htvoffcial
+DESCRIPTION:ちゃんとやった甲斐があったな。 漢字テストも1問ミス(『賜杯』)に抑えられた！ ちなみに今年は、シャトルラン、83回。 今年もよろしくお願いします“…”
+END:VEVENT
 END:VCALENDAR
