@@ -132,4 +132,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/126
 UID:discussion-126-2026-05-14@htvoffcial
 DESCRIPTION:とりあえず、剥がれたけど後でしっかり歯磨きしよう“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:ジンナーはなぜパキスタンを作ったのか
+URL:https://github.com/htvoffcial/htvoffcial/discussions/127
+UID:discussion-127-2026-05-15@htvoffcial
+DESCRIPTION:ということで、今日のお昼はお弁当、家に帰ってからピーナッツクリームを焼いたパンに塗っていただきました。 B.C.を見ると、紀元前とすぐ連想できるようになるのが日“…”
+END:VEVENT
 END:VCALENDAR
