@@ -140,4 +140,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/127
 UID:discussion-127-2026-05-15@htvoffcial
 DESCRIPTION:ということで、今日のお昼はお弁当、家に帰ってからピーナッツクリームを焼いたパンに塗っていただきました。 B.C.を見ると、紀元前とすぐ連想できるようになるのが日“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:ポーチドエッグは、本当に美味しかったです。
+URL:https://github.com/htvoffcial/htvoffcial/discussions/128
+UID:discussion-128-2026-05-16@htvoffcial
+DESCRIPTION:ところで、私のプロフィールのリポジトリにいる「体操のお兄さん」は、Gemma 3からGemma 4へリプレースされました。リプレースには、テストも含めて2分もか“…”
+END:VEVENT
 END:VCALENDAR
