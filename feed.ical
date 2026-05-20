@@ -172,4 +172,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/131
 UID:discussion-131-2026-05-19@htvoffcial
 DESCRIPTION:キチンの波 ジュグラーの波 クズネッツの波 コンドラチェフの波 “…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:お兄さん更新から3日目の経過観察　奄美群島で震度5強でした
+URL:https://github.com/htvoffcial/htvoffcial/discussions/132
+UID:discussion-132-2026-05-20@htvoffcial
+DESCRIPTION:お兄さんをGemma 4に置き換えてから3日が経過。 3と比べて、300文字前後がしっかり守られるようになり、読み応えも増えた。 前がDiscussions側の“…”
+END:VEVENT
 END:VCALENDAR
