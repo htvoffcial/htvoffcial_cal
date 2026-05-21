@@ -180,4 +180,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/132
 UID:discussion-132-2026-05-20@htvoffcial
 DESCRIPTION:お兄さんをGemma 4に置き換えてから3日が経過。 3と比べて、300文字前後がしっかり守られるようになり、読み応えも増えた。 前がDiscussions側の“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:そろそろ模様替えかな
+URL:https://github.com/htvoffcial/htvoffcial/discussions/133
+UID:discussion-133-2026-05-21@htvoffcial
+DESCRIPTION:制服も衣替えが済みまして、すっきり夏を味わえていると言いたいところですが、実際には肌寒さと強い雨で、ちょっとしんどい今日この頃😓 さて、お兄さんについて最近連日“…”
+END:VEVENT
 END:VCALENDAR
