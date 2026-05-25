@@ -196,4 +196,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/134
 UID:discussion-134-2026-05-22@htvoffcial
 DESCRIPTION:本日午前中雨で、午後に晴れてきた人生初ディズニー スプラッシュマウンテンやスターツアーズ、ジャングルクルーズやウェスタンリバー鉄道、プーさんのハニーハントどれも“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:ありえねぇ化学とかどうなるんやろ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/137
+UID:discussion-137-2026-05-25@htvoffcial
+DESCRIPTION:高3中間で80点未満取っててマジでまずい“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:お兄さんの天気ソースはOpen-MeteoからJMAのAPIにリプレースされました！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/136
+UID:discussion-136-2026-05-25@htvoffcial
+DESCRIPTION:朝見たら実行エラー起きてて、無料APIの方は稼働率が19%へ低下していたため、リプレースしました。 最近置き換え多いな…2.5ヶ月で4個くらいコアのSaaS置き“…”
+END:VEVENT
 END:VCALENDAR
