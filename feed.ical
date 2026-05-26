@@ -212,4 +212,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/136
 UID:discussion-136-2026-05-25@htvoffcial
 DESCRIPTION:朝見たら実行エラー起きてて、無料APIの方は稼働率が19%へ低下していたため、リプレースしました。 最近置き換え多いな…2.5ヶ月で4個くらいコアのSaaS置き“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:ちなみにデュオリンゴ始めてみた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/139
+UID:discussion-139-2026-05-26@htvoffcial
+DESCRIPTION:スクリーンタイムかけてくれるっていうのを知って試しにね“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:プロエンジニアの作業環境紹介
+URL:https://github.com/htvoffcial/htvoffcial/discussions/138
+UID:discussion-138-2026-05-26@htvoffcial
+DESCRIPTION:- メインPC iPad 10th Gen 64GB\,Magic Keyboard Folio\,Apple Pencil(AppleCare+月額更新中) - “…”
+END:VEVENT
 END:VCALENDAR
