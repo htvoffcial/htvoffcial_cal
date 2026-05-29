@@ -244,4 +244,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/141
 UID:discussion-141-2026-05-28@htvoffcial
 DESCRIPTION:ありがてぇ。 廊下出ると蒸し暑さを感じるのはさすがに季節を感じる“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
+SUMMARY:風強かったな
+URL:https://github.com/htvoffcial/htvoffcial/discussions/142
+UID:discussion-142-2026-05-29@htvoffcial
+DESCRIPTION:自転車乗ってるときだいぶ風に煽られた。 学校も、範囲で分担して、生徒がしっかり準備してから授業をし合うという活動、なかなか新鮮な感覚だった。“…”
+END:VEVENT
 END:VCALENDAR
