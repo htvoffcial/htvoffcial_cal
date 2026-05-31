@@ -260,4 +260,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/143
 UID:discussion-143-2026-05-30@htvoffcial
 DESCRIPTION:神奈川県では、数百日後に開催されるgreenexpoにむけて、地域の公園などに植物を植えたりしていたようです。 植えられた花を見ながら、どこかホッとした気分にな“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:なんとお兄さんがBlogger API経由で自動でブログにも登場！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/144
+UID:discussion-144-2026-05-31@htvoffcial
+DESCRIPTION:このリポジトリではお馴染みの、GitHub Actionsがまた増えまして。 今日から分のお兄さんをブログで読めるようになりました！ [blog.convers“…”
+END:VEVENT
 END:VCALENDAR
