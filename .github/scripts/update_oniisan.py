@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 README.md の <!-- DISCUSS_COACH_START/END --> ブロックを読み取り
-oniisan.ical に追記するスクリプト。
+oniisan.ics に追記するスクリプト。
 
 ■ 仕様
-  - 当月分   → oniisan.ical に蓄積
-  - 月をまたいだら前月分を Archive/{yyyy-mm}-oniisan.ical へ移動
+  - 当月分   → oniisan.ics に蓄積
+  - 月をまたいだら前月分を Archive/{yyyy-mm}-oniisan.ics へ移動
   - UID で重複チェック済み → 何度実行しても安全
 """
 
@@ -111,7 +111,7 @@ def fold_line(line: str) -> str:
     return "\r\n".join(result)
 
 
-def ical_escape(text: str) -> str:
+def ics_escape(text: str) -> str:
     for ch, esc in [("\\", "\\\\"), (";", "\\;"), (",", "\\,"), ("\n", "\\n")]:
         text = text.replace(ch, esc)
     return text
@@ -131,15 +131,15 @@ def make_vevent(date_str: str, summary: str, description: str) -> str:
         "BEGIN:VEVENT",
         f"DTSTART;VALUE=DATE:{dtstart}",
         f"DTEND;VALUE=DATE:{dtend}",
-        f"SUMMARY:{ical_escape(summary)}",
-        f"DESCRIPTION:{ical_escape(description)}",
+        f"SUMMARY:{ics_escape(summary)}",
+        f"DESCRIPTION:{ics_escape(description)}",
         f"UID:{uid}",
         "END:VEVENT",
     ]
     return "\n".join(lines)
 
 
-def build_ical(vevents: list[str]) -> str:
+def build_ics(vevents: list[str]) -> str:
     return "\n".join([ICAL_HEADER] + vevents + [ICAL_FOOTER]) + "\n"
 
 
@@ -190,7 +190,7 @@ def write_file(path: str, content: str) -> None:
 def main() -> None:
     today      = date.today()
     this_month = today.strftime("%Y-%m")
-    feed_path  = "oniisan.ical"
+    feed_path  = "oniisan.ics"
 
     # ① README.md 取得 & パース
     readme  = fetch_readme()
@@ -205,7 +205,7 @@ def main() -> None:
     print(f"   一言    : {coach['one_liner']}")
     print(f"   本文    : {coach['body'][:60]}…")
 
-    # ② 既存 oniisan.ical を読み込み
+    # ② 既存 oniisan.ics を読み込み
     existing     = read_file(feed_path)
     all_vevents  = extract_vevents(existing)
 
@@ -221,14 +221,14 @@ def main() -> None:
             keep_vevents.append(v)
 
     for month, old_vevents in archive_map.items():
-        arch_path    = f"Archive/{month}-oniisan.ical"
+        arch_path    = f"Archive/{month}-oniisan.ics"
         arch_content = read_file(arch_path)
         arch_events  = extract_vevents(arch_content)
         arch_uids    = {get_uid(v) for v in arch_events}
 
         to_add = [v for v in old_vevents if get_uid(v) not in arch_uids]
         merged = arch_events + to_add
-        write_file(arch_path, build_ical(merged))
+        write_file(arch_path, build_ics(merged))
         print(f"📦 Archive: {arch_path} ({len(merged)} 件)")
 
     # ④ 今日分を追記（重複チェック）
@@ -243,7 +243,7 @@ def main() -> None:
         print(f"\n✅ 追記: {coach['date']} 「{coach['summary']}」")
 
     # ⑤ 書き出し
-    write_file(feed_path, build_ical(keep_vevents))
+    write_file(feed_path, build_ics(keep_vevents))
     print(f"\n🎉 {feed_path} 更新完了！ ({len(keep_vevents)} 件)")
 
 
