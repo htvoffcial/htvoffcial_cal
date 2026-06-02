@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 DiscussArchive.md の全データを一括処理するバックフィルスクリプト。
-- 当月分  → feed.ical
-- 過去月分 → Archive/{yyyy-mm}.ical
+- 当月分  → feed.ics
+- 過去月分 → Archive/{yyyy-mm}.ics
 既存ファイルがある場合は UID で重複チェックしてマージします。
 """
 
@@ -72,7 +72,7 @@ ICAL_HEADER = "\n".join([
 ICAL_FOOTER = "END:VCALENDAR"
 
 
-def ical_escape(text: str) -> str:
+def ics_escape(text: str) -> str:
     for ch, esc in [("\\", "\\\\"), (";", "\\;"), (",", "\\,"), ("\n", "\\n")]:
         text = text.replace(ch, esc)
     return text
@@ -92,26 +92,26 @@ def make_vevent(date_str: str, title: str, url: str, desc: str = "") -> str:
         "BEGIN:VEVENT",
         f"DTSTART;VALUE=DATE:{dtstart}",
         f"DTEND;VALUE=DATE:{dtend}",
-        f"SUMMARY:{ical_escape(title)}",
+        f"SUMMARY:{ics_escape(title)}",
         f"URL:{url}",
         f"UID:{uid}",
     ]
     if desc:
-        lines.append(f"DESCRIPTION:{ical_escape(desc)}")
+        lines.append(f"DESCRIPTION:{ics_escape(desc)}")
     lines.append("END:VEVENT")
     return "\n".join(lines)
 
 
-def build_ical(vevents: list[str]) -> str:
+def build_ics(vevents: list[str]) -> str:
     parts = [ICAL_HEADER] + vevents + [ICAL_FOOTER]
     return "\n".join(parts) + "\n"
 
 
-def extract_vevents(ical_content: str | None) -> list[str]:
-    if not ical_content:
+def extract_vevents(ics_content: str | None) -> list[str]:
+    if not ics_content:
         return []
     vevents, current, in_event = [], [], False
-    for line in ical_content.split("\n"):
+    for line in ics_content.split("\n"):
         stripped = line.strip()
         if stripped == "BEGIN:VEVENT":
             in_event, current = True, [line]
@@ -175,7 +175,7 @@ def main() -> None:
 
     print(f"\n🗂️  月別内訳:")
     for m in sorted(month_map):
-        label = "feed.ical" if m == this_month else f"Archive/{m}.ical"
+        label = "feed.ics" if m == this_month else f"Archive/{m}.ics"
         print(f"   {m}: {len(month_map[m])} 件 → {label}")
 
     # ③ 各ファイルに書き出し（既存とマージ）
@@ -183,9 +183,9 @@ def main() -> None:
 
     for month, new_vevents in sorted(month_map.items()):
         if month == this_month:
-            out_path = "feed.ical"
+            out_path = "feed.ics"
         else:
-            out_path = f"Archive/{month}.ical"
+            out_path = f"Archive/{month}.ics"
 
         # 既存ファイルを読み込んで重複 UID を除外
         existing      = read_file(out_path)
@@ -195,7 +195,7 @@ def main() -> None:
         to_add = [v for v in new_vevents if get_uid(v) not in existing_uids]
         merged = existing_vevents + to_add
 
-        write_file(out_path, build_ical(merged))
+        write_file(out_path, build_ics(merged))
         written_files.append(out_path)
 
         skipped = len(new_vevents) - len(to_add)
