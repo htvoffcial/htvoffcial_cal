@@ -3,7 +3,7 @@ name: 🤸 Update Oniisan iCal
 on:
   schedule:
     # 毎日 JST 06:00 に実行 (UTC 21:00)
-    # ※ お兄さんは朝礼なので update-ical.yml (00:05) より後に動かす
+    # ※ お兄さんは朝礼なので update-ics.yml (00:05) より後に動かす
     - cron: "0 21 * * *"
   workflow_dispatch:
 
@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  update-oniisan-ical:
+  update-oniisan-ics:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -36,8 +36,8 @@ jobs:
 
       - name: 📊 Show diff
         run: |
-          echo "=== oniisan.ical ==="
-          git diff --stat oniisan.ical || true
+          echo "=== oniisan.ics ==="
+          git diff --stat oniisan.ics || true
           echo "=== Archive/ ==="
           git diff --stat Archive/ || true
 
@@ -46,15 +46,15 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add oniisan.ical Archive/ 2>/dev/null || true
+          git add oniisan.ics Archive/ 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "ℹ️  変更なし（お兄さんはお休みかも）。コミットをスキップします。"
           else
-            git commit -m "🤸 Update oniisan.ical [${{ env.JST_DATE }}]
+            git commit -m "🤸 Update oniisan.ics [${{ env.JST_DATE }}]
 
-          - README.md の体操のお兄さんブロックを oniisan.ical に追記
-          - 月をまたぐ場合は Archive/${{ env.JST_MONTH }}-oniisan.ical へ移動
+          - README.md の体操のお兄さんブロックを oniisan.ics に追記
+          - 月をまたぐ場合は Archive/${{ env.JST_MONTH }}-oniisan.ics へ移動
           
           [skip ci]"
             git push
