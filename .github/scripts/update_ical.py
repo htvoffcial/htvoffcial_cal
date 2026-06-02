@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 DiscussArchive.md → iCal 変換スクリプト
-- 毎日 feed.ical に追記
-- 月が変わったら Archive/{yyyy}-{mm}.ical に移動
+- 毎日 feed.ics に追記
+- 月が変わったら Archive/{yyyy}-{mm}.ics に移動
 """
 
 import re
@@ -80,7 +80,7 @@ ICAL_HEADER = "\n".join([
 ICAL_FOOTER = "END:VCALENDAR"
 
 
-def ical_escape(text: str) -> str:
+def ics_escape(text: str) -> str:
     for ch, esc in [("\\", "\\\\"), (";", "\\;"), (",", "\\,"), ("\n", "\\n")]:
         text = text.replace(ch, esc)
     return text
@@ -101,26 +101,26 @@ def make_vevent(date_str: str, title: str, url: str, desc: str = "") -> str:
         "BEGIN:VEVENT",
         f"DTSTART;VALUE=DATE:{dtstart}",
         f"DTEND;VALUE=DATE:{dtend}",
-        f"SUMMARY:{ical_escape(title)}",
+        f"SUMMARY:{ics_escape(title)}",
         f"URL:{url}",
         f"UID:{uid}",
     ]
     if desc:
-        lines.append(f"DESCRIPTION:{ical_escape(desc)}")
+        lines.append(f"DESCRIPTION:{ics_escape(desc)}")
     lines.append("END:VEVENT")
     return "\n".join(lines)
 
 
-def build_ical(vevents: list[str]) -> str:
+def build_ics(vevents: list[str]) -> str:
     parts = [ICAL_HEADER] + vevents + [ICAL_FOOTER]
     return "\n".join(parts) + "\n"
 
 
-def extract_vevents(ical_content: str | None) -> list[str]:
-    if not ical_content:
+def extract_vevents(ics_content: str | None) -> list[str]:
+    if not ics_content:
         return []
     vevents, current, in_event = [], [], False
-    for line in ical_content.split("\n"):
+    for line in ics_content.split("\n"):
         stripped = line.strip()
         if stripped == "BEGIN:VEVENT":
             in_event, current = True, [line]
@@ -182,12 +182,12 @@ def main() -> None:
     print(f"Today: {today_str}  |  This month: {this_month}")
     print(f"Parsed dates in archive: {sorted(discussions)}")
 
-    # ② 既存の feed.ical を読み込み
-    feed_path      = "feed.ical"
-    existing_ical  = read_file(feed_path)
-    all_vevents    = extract_vevents(existing_ical)
+    # ② 既存の feed.ics を読み込み
+    feed_path      = "feed.ics"
+    existing_ics  = read_file(feed_path)
+    all_vevents    = extract_vevents(existing_ics)
 
-    # ③ 先月以前のイベントを Archive/{yyyy-mm}.ical へ移動
+    # ③ 先月以前のイベントを Archive/{yyyy-mm}.ics へ移動
     archive_map: dict[str, list[str]] = {}
     keep_vevents: list[str] = []
 
@@ -199,7 +199,7 @@ def main() -> None:
             keep_vevents.append(vevent)
 
     for month, old_vevents in archive_map.items():
-        archive_path   = f"Archive/{month}.ical"
+        archive_path   = f"Archive/{month}.ics"
         existing_arch  = read_file(archive_path)
         arch_vevents   = extract_vevents(existing_arch)
         arch_uids      = get_uids(arch_vevents)
@@ -207,7 +207,7 @@ def main() -> None:
         to_add = [v for v in old_vevents if get_uid_from_vevent(v) not in arch_uids]
         merged = arch_vevents + to_add
 
-        write_file(archive_path, build_ical(merged))
+        write_file(archive_path, build_ics(merged))
         print(f"📦 Archived {len(to_add)} events → {archive_path} (total: {len(merged)})")
 
     # ④ 本日分の新規イベントを追記
@@ -225,12 +225,12 @@ def main() -> None:
     else:
         print(f"ℹ️  No discussions found for {today_str}")
 
-    # ⑤ feed.ical を書き出し
+    # ⑤ feed.ics を書き出し
     final_vevents = keep_vevents + new_vevents
-    write_file(feed_path, build_ical(final_vevents))
+    write_file(feed_path, build_ics(final_vevents))
 
     print(
-        f"\n🎉 Done! feed.ical: {len(final_vevents)} events "
+        f"\n🎉 Done! feed.ics: {len(final_vevents)} events "
         f"({len(new_vevents)} new, {len(archive_map)} month(s) archived)"
     )
 
