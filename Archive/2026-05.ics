@@ -268,4 +268,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/144
 UID:discussion-144-2026-05-31@htvoffcial
 DESCRIPTION:このリポジトリではお馴染みの、GitHub Actionsがまた増えまして。 今日から分のお兄さんをブログで読めるようになりました！ [blog.convers“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:今日も今日とて、明日は日曜日
+URL:https://github.com/htvoffcial/htvoffcial/discussions/135
+UID:discussion-135-2026-05-23@htvoffcial
+DESCRIPTION:英検の問題用紙って開けにくくない？焦って少し破いてしまった。“…”
+END:VEVENT
 END:VCALENDAR
