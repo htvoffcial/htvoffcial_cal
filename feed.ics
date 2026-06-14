@@ -124,4 +124,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/159
 UID:discussion-159-2026-06-13@htvoffcial
 DESCRIPTION:18日連続でできてるし、なんとか続けたい“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:最近投稿が23:50台がおおい
+URL:https://github.com/htvoffcial/htvoffcial/discussions/160
+UID:discussion-160-2026-06-14@htvoffcial
+DESCRIPTION:滑り込みすぎるな、お兄さんのカットオフが0:00だからわかりやすいけど。 今日は共テ模試を受けてきて、帰宅後自己採点で落胆して立ち直れないです。ボーダー70%と“…”
+END:VEVENT
 END:VCALENDAR
