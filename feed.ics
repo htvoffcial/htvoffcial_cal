@@ -132,4 +132,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/160
 UID:discussion-160-2026-06-14@htvoffcial
 DESCRIPTION:滑り込みすぎるな、お兄さんのカットオフが0:00だからわかりやすいけど。 今日は共テ模試を受けてきて、帰宅後自己採点で落胆して立ち直れないです。ボーダー70%と“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:大学受験
+URL:https://github.com/htvoffcial/htvoffcial/discussions/162
+UID:discussion-162-2026-06-16@htvoffcial
+DESCRIPTION:時間はあるが、受験に基礎を固めるにしても順番がわからないし7時間以上土日平日3時間。お兄さん本気で法学部の大学に受かりたいんだ、教えて！“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:ついにまた書けなかった
+URL:https://github.com/htvoffcial/htvoffcial/discussions/161
+UID:discussion-161-2026-06-16@htvoffcial
+DESCRIPTION:寝落ちしてもうた、0:00 日付変わっちゃった Q.0:00の投稿ってカウントされるのか？ A.カウントされず翌日の投稿扱いです“…”
+END:VEVENT
 END:VCALENDAR
