@@ -164,4 +164,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/163
 UID:discussion-163-2026-06-17@htvoffcial
 DESCRIPTION:意思決定で久々に建設的な話し合いの場を設けれたと思う。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+SUMMARY:部活の未来
+URL:https://github.com/htvoffcial/htvoffcial/discussions/165
+UID:discussion-165-2026-06-18@htvoffcial
+DESCRIPTION:無事体験入部を終え、やれることはやり尽くせましたし、実際人が来てくれました。企画してくれた生徒会に心から感謝。“…”
+END:VEVENT
 END:VCALENDAR
