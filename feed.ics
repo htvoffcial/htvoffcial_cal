@@ -188,4 +188,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/166
 UID:discussion-166-2026-06-19@htvoffcial
 DESCRIPTION:目に入ってくるものが全て癒し クサフジとかたんぽぽとか 雲が退くと、優しい光を“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:あー、無性に大根おろししたくなってきた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/169
+UID:discussion-169-2026-06-20@htvoffcial
+DESCRIPTION:うどんにかけて、氷と鰹節と天かすを乗せて… 昼飯は温かいうどんでした。“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:進路、マジで夢も希望もねぇな
+URL:https://github.com/htvoffcial/htvoffcial/discussions/168
+UID:discussion-168-2026-06-20@htvoffcial
+DESCRIPTION:シンプルに絶望 2008Early - 2009 Early 人生詰みベースで始まってたからな、ご愁傷様です。“…”
+END:VEVENT
 END:VCALENDAR
