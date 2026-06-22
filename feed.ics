@@ -212,4 +212,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/170
 UID:discussion-170-2026-06-21@htvoffcial
 DESCRIPTION:D判定になりたい。でも思ったより難しい問題解けてたらしい、逆に解けるはずの問題が解けてなかったからそこ復習と。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:英検準2級の一次試験合格！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/171
+UID:discussion-171-2026-06-22@htvoffcial
+DESCRIPTION:二次試験に向けて、確実にできるように文法とか発音とか勉強しないと！ ほんとによかった“…”
+END:VEVENT
 END:VCALENDAR
