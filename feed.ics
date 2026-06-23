@@ -220,4 +220,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/171
 UID:discussion-171-2026-06-22@htvoffcial
 DESCRIPTION:二次試験に向けて、確実にできるように文法とか発音とか勉強しないと！ ほんとによかった“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+SUMMARY:外出てて思った
+URL:https://github.com/htvoffcial/htvoffcial/discussions/172
+UID:discussion-172-2026-06-23@htvoffcial
+DESCRIPTION:みんな自転車のサドル高くね？“…”
+END:VEVENT
 END:VCALENDAR
