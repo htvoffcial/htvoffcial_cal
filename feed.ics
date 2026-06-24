@@ -228,4 +228,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/172
 UID:discussion-172-2026-06-23@htvoffcial
 DESCRIPTION:みんな自転車のサドル高くね？“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+SUMMARY:英単語頑張るぞ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/173
+UID:discussion-173-2026-06-24@htvoffcial
+DESCRIPTION:タンゴスタ、電波弱い人向けにアプリ化したら便利そう、公式さんよろしく“…”
+END:VEVENT
 END:VCALENDAR
