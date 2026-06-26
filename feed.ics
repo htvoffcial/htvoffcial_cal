@@ -252,4 +252,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/174
 UID:discussion-174-2026-06-25@htvoffcial
 DESCRIPTION:Temperature爆上げと、コンテキストを調整したぞ！面白いことを言って！ 追伸:さっき、プロンプトと温度のパラメタを変えてみたけど、変わんなかったんだよね“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:ワールドカップ、日本勝って欲しい!!
+URL:https://github.com/htvoffcial/htvoffcial/discussions/176
+UID:discussion-176-2026-06-26@htvoffcial
+DESCRIPTION:試合が授業中も気になって仕方がない！！“…”
+END:VEVENT
 END:VCALENDAR
