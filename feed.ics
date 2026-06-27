@@ -260,4 +260,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/176
 UID:discussion-176-2026-06-26@htvoffcial
 DESCRIPTION:試合が授業中も気になって仕方がない！！“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:古典を制して受験を制す
+URL:https://github.com/htvoffcial/htvoffcial/discussions/177
+UID:discussion-177-2026-06-27@htvoffcial
+DESCRIPTION:マドンナ古文単語230を買って参った！さっそくべんきょう早速勉強中、1日20単語づつくらい行きたいね <img width="2342" height="31“…”
+END:VEVENT
 END:VCALENDAR
