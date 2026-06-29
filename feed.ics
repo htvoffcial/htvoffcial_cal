@@ -284,4 +284,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/178
 UID:discussion-178-2026-06-28@htvoffcial
 DESCRIPTION:ひじき毎日お弁当にも入れてるけど、無くなると禁断症状でそう(言い過ぎ)“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:進路関係の提出物、やんねぇと
+URL:https://github.com/htvoffcial/htvoffcial/discussions/180
+UID:discussion-180-2026-06-29@htvoffcial
+DESCRIPTION:早めにやるのが大事“…”
+END:VEVENT
 END:VCALENDAR
