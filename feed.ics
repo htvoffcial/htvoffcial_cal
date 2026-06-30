@@ -292,4 +292,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/180
 UID:discussion-180-2026-06-29@htvoffcial
 DESCRIPTION:早めにやるのが大事“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:今日特に平常日
+URL:https://github.com/htvoffcial/htvoffcial/discussions/181
+UID:discussion-181-2026-06-30@htvoffcial
+DESCRIPTION:書くことないね“…”
+END:VEVENT
 END:VCALENDAR
