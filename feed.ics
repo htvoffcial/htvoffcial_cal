@@ -52,4 +52,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/188
 UID:discussion-188-2026-07-08@htvoffcial
 DESCRIPTION:スマホを置いて彷徨いてたら、突然場面が変わって市民体育館にいて、 流れでバスに乗り、そのまま発車して、先生に降りれないかっていっても高速だからといって、そのまま“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:昼には照り焼き丼を食べ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/189
+UID:discussion-189-2026-07-09@htvoffcial
+DESCRIPTION:夜にはメロンパンを食べる背徳感。部疲(部活疲労) 昨日1511回も飛べたのに今日は部疲があって爆散“…”
+END:VEVENT
 END:VCALENDAR
