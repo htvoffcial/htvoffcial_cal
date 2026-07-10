@@ -60,4 +60,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/189
 UID:discussion-189-2026-07-09@htvoffcial
 DESCRIPTION:夜にはメロンパンを食べる背徳感。部疲(部活疲労) 昨日1511回も飛べたのに今日は部疲があって爆散“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:スレ立てすぎると心穏やかでない
+URL:https://github.com/htvoffcial/htvoffcial/discussions/191
+UID:discussion-191-2026-07-10@htvoffcial
+DESCRIPTION:なるべくスレッドは少なくすることで、日記のように、気楽に継続できるようにする狙いがあるんですね。 やっぱり1日一個のスレッドにまとめる都合上、詰め込まなければな“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:明日もオーキャンとか色々あるぞい！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/190
+UID:discussion-190-2026-07-10@htvoffcial
+DESCRIPTION:縄跳びさ、明日は30分で2万回跳びたい。 調整さん(日程合わせるアプリ)みんな早めに入力せい！忘れるで絶対(怒ってはないよ👍)“…”
+END:VEVENT
 END:VCALENDAR
