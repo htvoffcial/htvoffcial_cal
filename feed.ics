@@ -76,4 +76,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/190
 UID:discussion-190-2026-07-10@htvoffcial
 DESCRIPTION:縄跳びさ、明日は30分で2万回跳びたい。 調整さん(日程合わせるアプリ)みんな早めに入力せい！忘れるで絶対(怒ってはないよ👍)“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:BLESS YOU
+URL:https://github.com/htvoffcial/htvoffcial/discussions/193
+UID:discussion-193-2026-07-11@htvoffcial
+DESCRIPTION:ハクション！“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:充電器って結構熱くなるね
+URL:https://github.com/htvoffcial/htvoffcial/discussions/192
+UID:discussion-192-2026-07-11@htvoffcial
+DESCRIPTION:気温も全国的に高くなり、気象庁によると35℃以上の猛暑日を43地点、真夏日の気温も490地点で観測し、九州地方を中心に、全国的に暖かい日となりました。 一般に、“…”
+END:VEVENT
 END:VCALENDAR
