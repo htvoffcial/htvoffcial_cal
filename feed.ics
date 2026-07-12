@@ -92,4 +92,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/192
 UID:discussion-192-2026-07-11@htvoffcial
 DESCRIPTION:気温も全国的に高くなり、気象庁によると35℃以上の猛暑日を43地点、真夏日の気温も490地点で観測し、九州地方を中心に、全国的に暖かい日となりました。 一般に、“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:帰り道
+URL:https://github.com/htvoffcial/htvoffcial/discussions/194
+UID:discussion-194-2026-07-12@htvoffcial
+DESCRIPTION:よくわからないデモ隊が通ってて心休まらない、ただでさえ遠いのになかなか、、“…”
+END:VEVENT
 END:VCALENDAR
