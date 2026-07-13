@@ -100,4 +100,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/194
 UID:discussion-194-2026-07-12@htvoffcial
 DESCRIPTION:よくわからないデモ隊が通ってて心休まらない、ただでさえ遠いのになかなか、、“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+SUMMARY:暑いね、夏休みも近づいてまいりました。
+URL:https://github.com/htvoffcial/htvoffcial/discussions/195
+UID:discussion-195-2026-07-13@htvoffcial
+DESCRIPTION:ハンディーファンを買おうかと、ネットショッピングに指が伸びる…“…”
+END:VEVENT
 END:VCALENDAR
