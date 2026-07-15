@@ -108,4 +108,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/195
 UID:discussion-195-2026-07-13@htvoffcial
 DESCRIPTION:ハンディーファンを買おうかと、ネットショッピングに指が伸びる…“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:手に豆
+URL:https://github.com/htvoffcial/htvoffcial/discussions/196
+UID:discussion-196-2026-07-15@htvoffcial
+DESCRIPTION:最近手にずっとマメできてるけど、球技のラケットを持っているのが原因だと思ったら、自転車のハンドル強く握りすぎてたのが原因だったっぽい。“…”
+END:VEVENT
 END:VCALENDAR
