@@ -116,4 +116,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/196
 UID:discussion-196-2026-07-15@htvoffcial
 DESCRIPTION:最近手にずっとマメできてるけど、球技のラケットを持っているのが原因だと思ったら、自転車のハンドル強く握りすぎてたのが原因だったっぽい。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:蜂が飛んでた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/197
+UID:discussion-197-2026-07-16@htvoffcial
+DESCRIPTION:だいぶ真夏に入ってきて、虫もバテてるかなと思っていたがそんなこともなく。 晴天で気持ちよかったけど、蜂が飛んできて縄跳び中止した。“…”
+END:VEVENT
 END:VCALENDAR
