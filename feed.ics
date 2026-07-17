@@ -124,4 +124,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/197
 UID:discussion-197-2026-07-16@htvoffcial
 DESCRIPTION:だいぶ真夏に入ってきて、虫もバテてるかなと思っていたがそんなこともなく。 晴天で気持ちよかったけど、蜂が飛んできて縄跳び中止した。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:校長先生の話で釣りの話始まって
+URL:https://github.com/htvoffcial/htvoffcial/discussions/198
+UID:discussion-198-2026-07-17@htvoffcial
+DESCRIPTION:ドライフライフィッシング(フライフィッシング)を久々に夏休みにやるそう。静かに針を下ろし、そこに生きた虫が弱って落ちたように見せる必要がある。何気ないものも、よ“…”
+END:VEVENT
 END:VCALENDAR
