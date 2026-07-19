@@ -132,4 +132,28 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/198
 UID:discussion-198-2026-07-17@htvoffcial
 DESCRIPTION:ドライフライフィッシング(フライフィッシング)を久々に夏休みにやるそう。静かに針を下ろし、そこに生きた虫が弱って落ちたように見せる必要がある。何気ないものも、よ“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:連日奇妙な学校の男子トイレ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/187
+UID:discussion-187-2026-07-07@htvoffcial
+DESCRIPTION:ここら2日間、昨日はなぜか海苔みたいな匂いしたし今日は爆音で音楽流れてた、 みんなテストで疲れて舞い上がっちゃったかな？“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:夏休み一日目
+URL:https://github.com/htvoffcial/htvoffcial/discussions/199
+UID:discussion-199-2026-07-18@htvoffcial
+DESCRIPTION:部屋が相変わらず汚いので片付けから始まってしまった..“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:スケジュール上縄跳びできない分
+URL:https://github.com/htvoffcial/htvoffcial/discussions/200
+UID:discussion-200-2026-07-19@htvoffcial
+DESCRIPTION:健康づくりのため、いた場所から品川駅まで早歩き、いい運動になりました。 熱中症まじで気をつけてほしい、今日は扇子だったけどハンディファンも届いたし積極的に使おう“…”
+END:VEVENT
 END:VCALENDAR
