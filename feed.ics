@@ -156,4 +156,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/200
 UID:discussion-200-2026-07-19@htvoffcial
 DESCRIPTION:健康づくりのため、いた場所から品川駅まで早歩き、いい運動になりました。 熱中症まじで気をつけてほしい、今日は扇子だったけどハンディファンも届いたし積極的に使おう“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:久々にCloudflareのログ見た
+URL:https://github.com/htvoffcial/htvoffcial/discussions/201
+UID:discussion-201-2026-07-20@htvoffcial
+DESCRIPTION:BotFightモード踏み抜きまくるDoS攻撃者多くて、ほんと驚くよね。“…”
+END:VEVENT
 END:VCALENDAR
