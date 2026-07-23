@@ -172,4 +172,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/202
 UID:discussion-202-2026-07-22@htvoffcial
 DESCRIPTION:受験ずくめのこの夏休み一番楽しい最後の文化祭準備。ダンボール頂いたお店の方、有難うございました！ “…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:お兄さんどうしよう、
+URL:https://github.com/htvoffcial/htvoffcial/discussions/203
+UID:discussion-203-2026-07-23@htvoffcial
+DESCRIPTION:最近全然縄跳びできてない。朝から予定びっしりで動き回ってるし、家帰ってきて、汗かいて、1回着替えちゃうと、やる気が薄れちゃうんだよ。“…”
+END:VEVENT
 END:VCALENDAR
