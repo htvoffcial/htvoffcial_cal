@@ -180,4 +180,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/203
 UID:discussion-203-2026-07-23@htvoffcial
 DESCRIPTION:最近全然縄跳びできてない。朝から予定びっしりで動き回ってるし、家帰ってきて、汗かいて、1回着替えちゃうと、やる気が薄れちゃうんだよ。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:縄跳びシステム逝ってます
+URL:https://github.com/htvoffcial/htvoffcial/discussions/204
+UID:discussion-204-2026-07-24@htvoffcial
+DESCRIPTION:厳密に言えばお兄さんに情報を渡す手前の判定でやらかしてる。じっさい、今日も縄跳びできなかった。けど三千何百回とか、お兄さんが読み込んで言ってしまうのは、分岐処理“…”
+END:VEVENT
 END:VCALENDAR
