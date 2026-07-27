@@ -212,4 +212,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/206
 UID:discussion-206-2026-07-26@htvoffcial
 DESCRIPTION:San Jose(サンノゼ)のことを今まで「サンジョーズ」って読んでた“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:タスク管理の助っ人
+URL:https://github.com/htvoffcial/htvoffcial/discussions/208
+UID:discussion-208-2026-07-27@htvoffcial
+DESCRIPTION:花の水やりとか、最近園芸始めたばかりだから習慣づいてないのもあり、忘れないためにもタスクとして入れておこうと。“…”
+END:VEVENT
 END:VCALENDAR
