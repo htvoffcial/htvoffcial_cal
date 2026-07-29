@@ -228,4 +228,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/209
 UID:discussion-209-2026-07-28@htvoffcial
 DESCRIPTION:2026/07/28 16:29 熊本県熊本地方 4.5 震度5弱 2026/07/28 16:39 2026/07/28 16:27 熊本県熊本地方 7.1 “…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:パソヲタってこういうときまずい
+URL:https://github.com/htvoffcial/htvoffcial/discussions/210
+UID:discussion-210-2026-07-29@htvoffcial
+DESCRIPTION:パソヲタにありがちな対人のコミュニケーション経験が足りなすぎると、受験期はなんか人生スパンで不安になるよね“…”
+END:VEVENT
 END:VCALENDAR
