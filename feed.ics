@@ -236,4 +236,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/210
 UID:discussion-210-2026-07-29@htvoffcial
 DESCRIPTION:パソヲタにありがちな対人のコミュニケーション経験が足りなすぎると、受験期はなんか人生スパンで不安になるよね“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+SUMMARY:志望理由書
+URL:https://github.com/htvoffcial/htvoffcial/discussions/211
+UID:discussion-211-2026-07-30@htvoffcial
+DESCRIPTION:自己PRとか、志望理由書って書くの大変よね。まず、自分がそこに惹かれたのか、そして自分にはどんな経験があり、それでどんな成長をして、その中で気づいたこととか。“…”
+END:VEVENT
 END:VCALENDAR
