@@ -244,4 +244,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/211
 UID:discussion-211-2026-07-30@htvoffcial
 DESCRIPTION:自己PRとか、志望理由書って書くの大変よね。まず、自分がそこに惹かれたのか、そして自分にはどんな経験があり、それでどんな成長をして、その中で気づいたこととか。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:校閲機能の使い方を覚えた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/212
+UID:discussion-212-2026-07-31@htvoffcial
+DESCRIPTION:Wordで普段あまり使っていなかった、版管理ができる校閲機能をの使い方を、志望理由書書きながら覚えた！“…”
+END:VEVENT
 END:VCALENDAR
