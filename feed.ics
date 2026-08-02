@@ -12,4 +12,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/213
 UID:discussion-213-2026-08-01@htvoffcial
 DESCRIPTION:令和8年に発生した熊本地震で被災された方々に、謹んでお見舞い申し上げます。少額ながら、インターネット募金で寄付をすでにしました。今度、市役所が空いている時に、そ“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:今日はオープンキャンパス
+URL:https://github.com/htvoffcial/htvoffcial/discussions/214
+UID:discussion-214-2026-08-02@htvoffcial
+DESCRIPTION:オープンキャンパスに行って、しっかり説明を聞きたり、展示を見てまわったりしました。ついでに学食も体験できました。しかし、かなり学食はボリュームがあって、お腹がパ“…”
+END:VEVENT
 END:VCALENDAR
