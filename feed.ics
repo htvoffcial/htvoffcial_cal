@@ -20,4 +20,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/214
 UID:discussion-214-2026-08-02@htvoffcial
 DESCRIPTION:オープンキャンパスに行って、しっかり説明を聞きたり、展示を見てまわったりしました。ついでに学食も体験できました。しかし、かなり学食はボリュームがあって、お腹がパ“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:やばい、書くことがない。
+URL:https://github.com/htvoffcial/htvoffcial/discussions/215
+UID:discussion-215-2026-08-03@htvoffcial
+DESCRIPTION:何書けばいいんだろ、昼にレモネード飲んだって話する？それ以外赤本しかない“…”
+END:VEVENT
 END:VCALENDAR
