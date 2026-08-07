@@ -36,4 +36,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/216
 UID:discussion-216-2026-08-05@htvoffcial
 DESCRIPTION:23：59投稿！ 今日は運動しなかったけど、出掛けてました！“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:朝にGitHub Actionsで障害が起きていたらしい
+URL:https://github.com/htvoffcial/htvoffcial/discussions/218
+UID:discussion-218-2026-08-07@htvoffcial
+DESCRIPTION:毎朝、お兄さんをActionsで呼び出しているから、処理できていなくて手動で再試行してた“…”
+END:VEVENT
 END:VCALENDAR
