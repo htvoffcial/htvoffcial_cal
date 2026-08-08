@@ -44,4 +44,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/218
 UID:discussion-218-2026-08-07@htvoffcial
 DESCRIPTION:毎朝、お兄さんをActionsで呼び出しているから、処理できていなくて手動で再試行してた“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:教えてほしい
+URL:https://github.com/htvoffcial/htvoffcial/discussions/219
+UID:discussion-219-2026-08-08@htvoffcial
+DESCRIPTION:空中浮遊する方法教えて“…”
+END:VEVENT
 END:VCALENDAR
