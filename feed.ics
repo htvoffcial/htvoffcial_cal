@@ -52,4 +52,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/219
 UID:discussion-219-2026-08-08@htvoffcial
 DESCRIPTION:空中浮遊する方法教えて“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:ウェ絵、明日は英検だぁ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/220
+UID:discussion-220-2026-08-09@htvoffcial
+DESCRIPTION:英検緊張しすぎて、寝る布団が硬く感じる。“…”
+END:VEVENT
 END:VCALENDAR
