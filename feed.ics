@@ -60,4 +60,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/220
 UID:discussion-220-2026-08-09@htvoffcial
 DESCRIPTION:英検緊張しすぎて、寝る布団が硬く感じる。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:お兄さんのおかげで頑張れた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/221
+UID:discussion-221-2026-08-10@htvoffcial
+DESCRIPTION:とりあえず伸びをしよう！ってアドバイスで、朝しっかり体調整えて、いい状態で英検受けれた！縄跳びできない代わりに新宿を多めに歩いた“…”
+END:VEVENT
 END:VCALENDAR
