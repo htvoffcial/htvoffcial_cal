@@ -92,4 +92,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/223
 UID:discussion-223-2026-08-12@htvoffcial
 DESCRIPTION:何事も継続するのも、協力して活動するのも、一番大切なのは目標設定だね“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:ひどい雨だった
+URL:https://github.com/htvoffcial/htvoffcial/discussions/226
+UID:discussion-226-2026-08-13@htvoffcial
+DESCRIPTION:何も手につかず1日を終える。ただ、ミニテーブルの片付けは無事終えたのでよし。“…”
+END:VEVENT
 END:VCALENDAR
