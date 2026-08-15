@@ -108,4 +108,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/227
 UID:discussion-227-2026-08-14@htvoffcial
 DESCRIPTION:美容室に行ってきましたー！ 今回は襟足短めで、前髪は揃える感じでお願いしました。 にしてもほんとに今日も、台風一過で直射日光が暑かった。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:本日は終戦記念日です
+URL:https://github.com/htvoffcial/htvoffcial/discussions/228
+UID:discussion-228-2026-08-15@htvoffcial
+DESCRIPTION:私たちの先祖が、必死に戦い、この日本を守ってきたことに感謝の気持を持っています。 御英霊の御霊の安らかならんことを祈念します。“…”
+END:VEVENT
 END:VCALENDAR
