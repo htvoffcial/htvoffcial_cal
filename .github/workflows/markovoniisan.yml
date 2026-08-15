@@ -1,0 +1,60 @@
+name: Generate Text via Markov Chain
+
+on:
+  workflow_dispatch: # 手動実行用イベント
+
+jobs:
+  generate-text:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate 30-word Markov text
+        run: |
+          python -c '
+          import re
+          import random
+          from collections import defaultdict
+
+          # 1. a.txt の読み込みと単語の抽出 (アルファベット単語を対象)
+          try:
+              with open("a.txt", "r", encoding="utf-8") as f:
+                  text = f.read()
+          except FileNotFoundError:
+              print("Error: a.txt が見つかりません。")
+              exit(1)
+
+          words = re.findall(r"\b[a-zA-Z]+\b", text.lower())
+
+          if len(words) < 2:
+              print("Error: 学習する単語が不足しています。")
+              exit(1)
+
+          # 2. 2-gram マルコフ鎖モデルの構築
+          model = defaultdict(list)
+          for w1, w2 in zip(words[:-1], words[1:]):
+              model[w1].append(w2)
+
+          # 3. 文章の生成 (30単語)
+          current_word = random.choice(words)
+          result = [current_word]
+
+          for _ in range(29):
+              next_words = model.get(current_word)
+              if not next_words:
+                  current_word = random.choice(words)
+              else:
+                  current_word = random.choice(next_words)
+              result.append(current_word)
+
+          generated_sentence = " ".join(result).capitalize() + "."
+          print("=== Generated Text ===")
+          print(generated_sentence)
+          '
