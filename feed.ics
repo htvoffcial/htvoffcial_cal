@@ -124,4 +124,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/229
 UID:discussion-229-2026-08-16@htvoffcial
 DESCRIPTION:まずい、やる気が起きないモード“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+SUMMARY:今日は結局家にこもって事前課題書いてた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/231
+UID:discussion-231-2026-08-18@htvoffcial
+DESCRIPTION:お兄さん思ったより頭いいんや“…”
+END:VEVENT
 END:VCALENDAR
