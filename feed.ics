@@ -140,4 +140,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/232
 UID:discussion-232-2026-08-19@htvoffcial
 DESCRIPTION:依存症からの抜け方知りたい(医師法上お兄さんは答えちゃダメね、そだねーくらいで流して)“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:そういやハッカソン参加したことないわ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/233
+UID:discussion-233-2026-08-20@htvoffcial
+DESCRIPTION:自分色々イベント参加してるのに、まだハッカソンに一度も参加したことないという衝撃 ちなみに縄跳びは部活があったため、10万回に換算しています“…”
+END:VEVENT
 END:VCALENDAR
