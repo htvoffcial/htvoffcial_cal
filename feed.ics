@@ -148,4 +148,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/233
 UID:discussion-233-2026-08-20@htvoffcial
 DESCRIPTION:自分色々イベント参加してるのに、まだハッカソンに一度も参加したことないという衝撃 ちなみに縄跳びは部活があったため、10万回に換算しています“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:無事、見学に15人ほど来てくれた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/234
+UID:discussion-234-2026-08-21@htvoffcial
+DESCRIPTION:部活動見学の対応してて、集まるか不安でしたが、結果往来ということで！“…”
+END:VEVENT
 END:VCALENDAR
