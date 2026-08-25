@@ -188,4 +188,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/237
 UID:discussion-237-2026-08-24@htvoffcial
 DESCRIPTION:朝は白飯卵焼き、昼はチャーシュー入りゴーヤチャンプルー、夜はキムチもずくと焼シャケ。バタースコッチ、美味すぎた。あれは罪の味だわ。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:時計とカレンダー見ると気分落ち込む
+URL:https://github.com/htvoffcial/htvoffcial/discussions/239
+UID:discussion-239-2026-08-25@htvoffcial
+DESCRIPTION:助けてお兄さん！受験のストレスで鬱か何か知らんが脳がフリーズする！※医学的なアドバイスは無しで“…”
+END:VEVENT
 END:VCALENDAR
