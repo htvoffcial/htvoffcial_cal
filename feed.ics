@@ -204,4 +204,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/240
 UID:discussion-240-2026-08-26@htvoffcial
 DESCRIPTION:やっぱ記述は厳しい“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:今日は江戸川をランニング
+URL:https://github.com/htvoffcial/htvoffcial/discussions/243
+UID:discussion-243-2026-08-29@htvoffcial
+DESCRIPTION:縄跳びできなかった分ね運動しといた“…”
+END:VEVENT
 END:VCALENDAR
