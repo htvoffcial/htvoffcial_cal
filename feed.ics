@@ -212,4 +212,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/243
 UID:discussion-243-2026-08-29@htvoffcial
 DESCRIPTION:縄跳びできなかった分ね運動しといた“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:8月の終わり、なんか切ない
+URL:https://github.com/htvoffcial/htvoffcial/discussions/244
+UID:discussion-244-2026-08-30@htvoffcial
+DESCRIPTION:雨で外出れなかったので、庭の花に水やって家にいた。“…”
+END:VEVENT
 END:VCALENDAR
