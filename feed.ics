@@ -220,4 +220,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/244
 UID:discussion-244-2026-08-30@htvoffcial
 DESCRIPTION:雨で外出れなかったので、庭の花に水やって家にいた。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:さらば、愛しの8月よ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/245
+UID:discussion-245-2026-08-31@htvoffcial
+DESCRIPTION:皆さんお疲れ様でした。あと6日くらい延長してくれてもいいのに。さあ、社会が動き出しますよ“…”
+END:VEVENT
 END:VCALENDAR
