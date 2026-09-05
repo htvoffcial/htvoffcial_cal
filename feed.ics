@@ -36,4 +36,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/249
 UID:discussion-249-2026-09-04@htvoffcial
 DESCRIPTION:孤独ではない。至って健全だ。 ところで、SNSの本当の怖さを知ったよ。自分磨きを鼓舞するならいいけど、段々とその方向の行きすぎた思考に陥る。 「若者のSNS疲れ“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:あーあ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/250
+UID:discussion-250-2026-09-05@htvoffcial
+DESCRIPTION:みんな、早く寝ような。月見バーガーは美味しかった。“…”
+END:VEVENT
 END:VCALENDAR
