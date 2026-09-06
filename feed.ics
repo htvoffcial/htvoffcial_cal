@@ -44,4 +44,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/250
 UID:discussion-250-2026-09-05@htvoffcial
 DESCRIPTION:みんな、早く寝ような。月見バーガーは美味しかった。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:お兄さんがDOIを取得！10.5281/zenodo.22540169
+URL:https://github.com/htvoffcial/htvoffcial/discussions/252
+UID:discussion-252-2026-09-06@htvoffcial
+DESCRIPTION:我らがお兄さん、永遠なれ。 [![DOI](https://zenodo.org/badge/857757843.svg)](https://doi.org/1“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:v1.1.4
+URL:https://github.com/htvoffcial/htvoffcial/discussions/251
+UID:discussion-251-2026-09-06@htvoffcial
+DESCRIPTION:温度調整やプロンプト調整、再試行管理を見直し、お兄さん機能の充実、安定性を改善しました。 <hr /><em>This discussion was creat“…”
+END:VEVENT
 END:VCALENDAR
