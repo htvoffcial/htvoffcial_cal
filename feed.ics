@@ -60,4 +60,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/251
 UID:discussion-251-2026-09-06@htvoffcial
 DESCRIPTION:温度調整やプロンプト調整、再試行管理を見直し、お兄さん機能の充実、安定性を改善しました。 <hr /><em>This discussion was creat“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:今日は大雨予報で休校でした
+URL:https://github.com/htvoffcial/htvoffcial/discussions/253
+UID:discussion-253-2026-09-07@htvoffcial
+DESCRIPTION:人は2週間会わなかったら、相手のことを忘れる、という誰かの言葉がいまだに怖い “…”
+END:VEVENT
 END:VCALENDAR
