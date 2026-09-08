@@ -68,4 +68,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/253
 UID:discussion-253-2026-09-07@htvoffcial
 DESCRIPTION:人は2週間会わなかったら、相手のことを忘れる、という誰かの言葉がいまだに怖い “…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:引退が近いなー
+URL:https://github.com/htvoffcial/htvoffcial/discussions/254
+UID:discussion-254-2026-09-08@htvoffcial
+DESCRIPTION:私ももう高3。部活もそろそろ引退です。引退は煌びやかに部室を飾ってパーティーをしたい。あとさらばX垢。アカウントへの執着をなくすために白骨観でロゴが骨格だけにな“…”
+END:VEVENT
 END:VCALENDAR
