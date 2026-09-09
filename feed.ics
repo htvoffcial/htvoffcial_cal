@@ -76,4 +76,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/254
 UID:discussion-254-2026-09-08@htvoffcial
 DESCRIPTION:私ももう高3。部活もそろそろ引退です。引退は煌びやかに部室を飾ってパーティーをしたい。あとさらばX垢。アカウントへの執着をなくすために白骨観でロゴが骨格だけにな“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:さあ、スタートラインに立とう
+URL:https://github.com/htvoffcial/htvoffcial/discussions/255
+UID:discussion-255-2026-09-09@htvoffcial
+DESCRIPTION:大雨の中今日も帰ってきました。いよいよ明日は、何とは言わないが2大イベント。これでゴールテープを切って、同時にスタートラインに着くんだ。ああ、人生ってなんなんだ“…”
+END:VEVENT
 END:VCALENDAR
