@@ -92,4 +92,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/256
 UID:discussion-256-2026-09-10@htvoffcial
 DESCRIPTION:無事、写真も取れたし、郵便も送れたので、ほぼ完璧“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:色々落ち着いた金曜日！最近のハマってる曲
+URL:https://github.com/htvoffcial/htvoffcial/discussions/257
+UID:discussion-257-2026-09-11@htvoffcial
+DESCRIPTION:さよぽにのいつか夢でと、ハスピエの深海前夜って曲にハマってる“…”
+END:VEVENT
 END:VCALENDAR
