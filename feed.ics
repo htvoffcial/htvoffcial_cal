@@ -100,4 +100,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/257
 UID:discussion-257-2026-09-11@htvoffcial
 DESCRIPTION:さよぽにのいつか夢でと、ハスピエの深海前夜って曲にハマってる“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:縄跳び忘れてた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/258
+UID:discussion-258-2026-09-12@htvoffcial
+DESCRIPTION:ごめんお兄さん、叱ってくれ“…”
+END:VEVENT
 END:VCALENDAR
