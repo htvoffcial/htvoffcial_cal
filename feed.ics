@@ -124,4 +124,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/269
 UID:discussion-269-2026-09-13@htvoffcial
 DESCRIPTION:イツメンの簡単な片思いと軽い夕方を乗り遅れる。しかも、下校のエモな作業はちょっともどかしいっぽい。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Instagramやべえwハマりすぎる
+URL:https://github.com/htvoffcial/htvoffcial/discussions/272
+UID:discussion-272-2026-09-14@htvoffcial
+DESCRIPTION:これ、どの機能を触っても(リールとかに限定されず)、アルゴリズムによって私がコントロールされてるほどに都合よくはまり込む。 多分俺将来ギャンブルやっちゃだめなタ“…”
+END:VEVENT
 END:VCALENDAR
