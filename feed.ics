@@ -180,4 +180,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/278
 UID:discussion-278-2026-09-17@htvoffcial
 DESCRIPTION:久しぶりに前の学年でクラス一緒だった友達と話せた。なんとなく、話しかけ方忘れてたから、感謝。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:明日雨降りませんように
+URL:https://github.com/htvoffcial/htvoffcial/discussions/281
+UID:discussion-281-2026-09-18@htvoffcial
+DESCRIPTION:頼むよ。今日はクラスと部活と、文化祭で動き回ってたので、縄跳びできる体力なんてなかった。“…”
+END:VEVENT
 END:VCALENDAR
