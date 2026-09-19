@@ -188,4 +188,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/281
 UID:discussion-281-2026-09-18@htvoffcial
 DESCRIPTION:頼むよ。今日はクラスと部活と、文化祭で動き回ってたので、縄跳びできる体力なんてなかった。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:文化祭黒字、みんなありがとう
+URL:https://github.com/htvoffcial/htvoffcial/discussions/283
+UID:discussion-283-2026-09-19@htvoffcial
+DESCRIPTION:自分は、一般公開で朝からシフトの食品担当だったけど、速やかにお客様に提供できるように、しっかり素早くオーダーを捌いたり、細かい作業動線にも気を使ったつもり。 少“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:天気を見つかるときの不穏な自習室は暖かい
+URL:https://github.com/htvoffcial/htvoffcial/discussions/282
+UID:discussion-282-2026-09-19@htvoffcial
+DESCRIPTION:天気を見つかるときの不穏な自習室は暖かい。でも、先輩を行くときの早いお弁当も既読無視する気がする。“…”
+END:VEVENT
 END:VCALENDAR
