@@ -204,4 +204,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/282
 UID:discussion-282-2026-09-19@htvoffcial
 DESCRIPTION:天気を見つかるときの不穏な自習室は暖かい。でも、先輩を行くときの早いお弁当も既読無視する気がする。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:体たらくでござる
+URL:https://github.com/htvoffcial/htvoffcial/discussions/285
+UID:discussion-285-2026-09-20@htvoffcial
+DESCRIPTION:なんとかしたいね、俺の生き方“…”
+END:VEVENT
 END:VCALENDAR
