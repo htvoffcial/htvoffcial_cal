@@ -212,4 +212,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/285
 UID:discussion-285-2026-09-20@htvoffcial
 DESCRIPTION:なんとかしたいね、俺の生き方“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:相変わらずの大雨でわぶ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/287
+UID:discussion-287-2026-09-21@htvoffcial
+DESCRIPTION:授業で出た課題をやっていたり。“…”
+END:VEVENT
 END:VCALENDAR
