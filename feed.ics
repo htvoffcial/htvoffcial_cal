@@ -180,4 +180,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/287
 UID:discussion-287-2026-09-21@htvoffcial
 DESCRIPTION:授業で出た課題をやっていたり。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:お兄さんが古文お兄さんになったよ！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/289
+UID:discussion-289-2026-09-22@htvoffcial
+DESCRIPTION:なんと、今日から9/30まで、いつものDiscussまとめ体操のお兄さんが、はるはるの入試勉強のため、古文で話してくれます！あとどうでもいいけど二郎系的なの食べ“…”
+END:VEVENT
 END:VCALENDAR
