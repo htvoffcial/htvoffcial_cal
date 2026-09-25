@@ -212,4 +212,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/293
 UID:discussion-293-2026-09-24@htvoffcial
 DESCRIPTION:継続可能なコンテンツは、時より迷走していないか、自分を見つめ直す時間も必要みたいだ・“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:お兄さんへ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/296
+UID:discussion-296-2026-09-25@htvoffcial
+DESCRIPTION:お兄さんは何時起きですか、お風呂は寝る2時間前に入っていますか、偏食になっていませんか、肉ばっかり食べないでね“…”
+END:VEVENT
 END:VCALENDAR
