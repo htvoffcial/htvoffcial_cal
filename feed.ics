@@ -220,4 +220,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/296
 UID:discussion-296-2026-09-25@htvoffcial
 DESCRIPTION:お兄さんは何時起きですか、お風呂は寝る2時間前に入っていますか、偏食になっていませんか、肉ばっかり食べないでね“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:だいぶ冷えてきたね
+URL:https://github.com/htvoffcial/htvoffcial/discussions/298
+UID:discussion-298-2026-09-26@htvoffcial
+DESCRIPTION:そろそろ、赤外線ヒーターを出そうかと思った。“…”
+END:VEVENT
 END:VCALENDAR
