@@ -228,4 +228,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/298
 UID:discussion-298-2026-09-26@htvoffcial
 DESCRIPTION:そろそろ、赤外線ヒーターを出そうかと思った。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:あなたは赤組？白組？
+URL:https://github.com/htvoffcial/htvoffcial/discussions/300
+UID:discussion-300-2026-09-27@htvoffcial
+DESCRIPTION:お兄さんは高校の体育祭覚えてる？リレーには参加しないと思うけど、それ以外の種目で、諦めずに最後まで努力して活躍したいね。“…”
+END:VEVENT
 END:VCALENDAR
