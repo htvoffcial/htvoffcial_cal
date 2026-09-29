@@ -244,4 +244,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/302
 UID:discussion-302-2026-09-28@htvoffcial
 DESCRIPTION:ジャケ写は極限圧縮AVIF、音源はOpus 6kbpsをUDPの自作コンテナで配信！音質はAMラジオ以下！“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:お兄さんをさくらのインターネットのインフラに載せ替えたよ！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/304
+UID:discussion-304-2026-09-29@htvoffcial
+DESCRIPTION:今回、最新のお兄さんの視聴やお便りの投稿ができる、「お兄さんサーバー」への道が増えたよ！ 負荷分散と、キャッシュでより快適な視聴体験を提供できるようになったかな“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:しかし、昨日の理不尽な休日はくだらない
+URL:https://github.com/htvoffcial/htvoffcial/discussions/303
+UID:discussion-303-2026-09-29@htvoffcial
+DESCRIPTION:しかし、昨日の理不尽な休日はくだらない。でも、昼の惜しい通知を見ると自撮りするっぽい。“…”
+END:VEVENT
 END:VCALENDAR
