@@ -260,4 +260,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/303
 UID:discussion-303-2026-09-29@htvoffcial
 DESCRIPTION:しかし、昨日の理不尽な休日はくだらない。でも、昼の惜しい通知を見ると自撮りするっぽい。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:お兄さん古文モード一旦終了
+URL:https://github.com/htvoffcial/htvoffcial/discussions/306
+UID:discussion-306-2026-09-30@htvoffcial
+DESCRIPTION:予定通り、古典学習用のお兄さんの古文モードは終了しました！これからも、活用を間違えたりしないように気をつけていこう！“…”
+END:VEVENT
 END:VCALENDAR
