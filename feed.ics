@@ -20,4 +20,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/310
 UID:discussion-310-2026-10-02@htvoffcial
 DESCRIPTION:「プライドは低く、自信は高く」 めっちゃ大事やんなこれ“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:なんとか完了
+URL:https://github.com/htvoffcial/htvoffcial/discussions/313
+UID:discussion-313-2026-10-03@htvoffcial
+DESCRIPTION:お兄さんのnpmパッケージ化システムがようやっと完成したよ“…”
+END:VEVENT
 END:VCALENDAR
