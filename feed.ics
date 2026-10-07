@@ -60,4 +60,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/319
 UID:discussion-319-2026-10-06@htvoffcial
 DESCRIPTION:インスタはアシカの動画しか流れてこないんだけど、(高速首前後x10〜15)→深呼吸(鼻息/荒い)x2→(頭回しx7)→「オッオッオッオッオッ」 みたいな動作が、“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:縄跳び行方不明
+URL:https://github.com/htvoffcial/htvoffcial/discussions/321
+UID:discussion-321-2026-10-07@htvoffcial
+DESCRIPTION:最近できてなかったのは、しばらくやってなくてどこにおいたか分からなかったためです、、“…”
+END:VEVENT
 END:VCALENDAR
