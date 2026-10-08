@@ -68,4 +68,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/321
 UID:discussion-321-2026-10-07@htvoffcial
 DESCRIPTION:最近できてなかったのは、しばらくやってなくてどこにおいたか分からなかったためです、、“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:お兄さんが好きな場所教えて！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/323
+UID:discussion-323-2026-10-08@htvoffcial
+DESCRIPTION:近くにあったら行ってみたいから、おすすめあれば！“…”
+END:VEVENT
 END:VCALENDAR
