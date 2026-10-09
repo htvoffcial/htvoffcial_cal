@@ -76,4 +76,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/323
 UID:discussion-323-2026-10-08@htvoffcial
 DESCRIPTION:近くにあったら行ってみたいから、おすすめあれば！“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:今朝は普通に寒かったな！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/325
+UID:discussion-325-2026-10-09@htvoffcial
+DESCRIPTION:体温めるためにしっかり室内で運動もしておいたよ！“…”
+END:VEVENT
 END:VCALENDAR
