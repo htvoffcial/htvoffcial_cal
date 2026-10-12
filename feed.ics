@@ -108,4 +108,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/329
 UID:discussion-329-2026-10-11@htvoffcial
 DESCRIPTION:今年も来ちゃいましたね。なかなか寝れん！“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:みんなで南極にお手紙を送ろう
+URL:https://github.com/htvoffcial/htvoffcial/discussions/331
+UID:discussion-331-2026-10-12@htvoffcial
+DESCRIPTION:毎年11月に日本を出発する南極観測船「しらせ」に、10月13日〜17日までのお兄さんのまとめをハガキに印刷して、はるはるが送るよ！ 興味がある人は投稿してみてね“…”
+END:VEVENT
 END:VCALENDAR
