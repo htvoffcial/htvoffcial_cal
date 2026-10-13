@@ -116,4 +116,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/331
 UID:discussion-331-2026-10-12@htvoffcial
 DESCRIPTION:毎年11月に日本を出発する南極観測船「しらせ」に、10月13日〜17日までのお兄さんのまとめをハガキに印刷して、はるはるが送るよ！ 興味がある人は投稿してみてね“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:お兄さんが好きな焼き鳥は？
+URL:https://github.com/htvoffcial/htvoffcial/discussions/333
+UID:discussion-333-2026-10-13@htvoffcial
+DESCRIPTION:皮？モモ？つくね？“…”
+END:VEVENT
 END:VCALENDAR
