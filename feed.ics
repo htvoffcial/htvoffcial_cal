@@ -124,4 +124,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/333
 UID:discussion-333-2026-10-13@htvoffcial
 DESCRIPTION:皮？モモ？つくね？“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:明日もソフトボール頑張るよ！
+URL:https://github.com/htvoffcial/htvoffcial/discussions/335
+UID:discussion-335-2026-10-14@htvoffcial
+DESCRIPTION:スキップしてから走るって言ういい走り方を教えてもらった。“…”
+END:VEVENT
 END:VCALENDAR
