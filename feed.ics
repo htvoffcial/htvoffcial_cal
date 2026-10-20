@@ -180,4 +180,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/344
 UID:discussion-344-2026-10-19@htvoffcial
 DESCRIPTION:ご飯の平和なジャージや切ない校庭を話す。でも、席替えの便利な自撮りは新しい。そして、テストのぎこちないルーズリーフは親切なかも。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:テストボコボコ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/347
+UID:discussion-347-2026-10-20@htvoffcial
+DESCRIPTION:わしはご存知の通り化学と日本史、なかなか日本史は覚えることが多いね！ 数学は事前に別日でテストやっていたそうだから、考査期間ではないらしく、1時間で帰れてる人も“…”
+END:VEVENT
 END:VCALENDAR
