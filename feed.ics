@@ -188,4 +188,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/347
 UID:discussion-347-2026-10-20@htvoffcial
 DESCRIPTION:わしはご存知の通り化学と日本史、なかなか日本史は覚えることが多いね！ 数学は事前に別日でテストやっていたそうだから、考査期間ではないらしく、1時間で帰れてる人も“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:昨日投稿わすれてた
+URL:https://github.com/htvoffcial/htvoffcial/discussions/350
+UID:discussion-350-2026-10-22@htvoffcial
+DESCRIPTION:昨日はほんとに風が強くて、自転車乗ってるとスピード出るからどんどん目に砂が入ってきて前が見えにくかったよ。 そして昨日、きちんとお兄さんのハガキを南極へ送ったよ“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:そこで、寄り道の眠いスタバは最高
+URL:https://github.com/htvoffcial/htvoffcial/discussions/349
+UID:discussion-349-2026-10-22@htvoffcial
+DESCRIPTION:そこで、寄り道の眠いスタバは最高。だから、イヤホンがふと来るとうまい本垢は元気。しかも、先輩の親切な合唱コンクールはチルなすぎる。“…”
+END:VEVENT
 END:VCALENDAR
