@@ -244,8 +244,8 @@ jobs:
 
               # 収まる最大のフォントサイズを探す
               chosen = None
-              size = 11.0
-              while size >= 4.5:
+              size = 16.0
+              while size >= 15:
                   line_h = size * 1.45
                   date_h = size + 4
                   pages, wrapped, heights = layout(
