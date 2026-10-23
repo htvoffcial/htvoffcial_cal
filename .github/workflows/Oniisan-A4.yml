@@ -1,0 +1,308 @@
+name: 🤸 Oniisan PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "開始日 (YYYY-MM-DD)"
+        required: true
+        type: string
+      end_date:
+        description: "終了日 (YYYY-MM-DD)"
+        required: true
+        type: string
+      max_pages:
+        description: "最大ページ数 (A4縦)"
+        required: true
+        default: "2"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  oniisan-pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 🔤 Install Japanese font & reportlab
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-ipafont-gothic
+          pip install reportlab
+
+      - name: 🤸 Generate oniisan PDF
+        run: |
+          cat > oniisan_pdf.py <<'PYEOF'
+          #!/usr/bin/env python3
+          # -*- coding: utf-8 -*-
+          """
+          🤸 お兄さん PDF 生成スクリプト
+
+          oniisan.ics（当月分）と Archive/YYYY-MM-oniisan.ics（過去月分）から
+          指定期間分のお兄さんメッセージを取り出し、
+
+            - A4 用紙に 3 列グリッドで配置
+            - 各セルには「日付」と「コンテンツ（本文）」だけを掲載
+            - 指定した最大枚数以内に収まるようフォントサイズを自動調整
+
+          した PDF を出力します。
+
+          使い方:
+            python oniisan_pdf.py --start 2026-10-01 --end 2026-10-31 --max-pages 2 --output oniisan.pdf
+
+          依存: reportlab, 日本語 TrueType フォント (IPA ゴシック等)
+            GitHub Actions では fonts-ipafont-gothic を apt で入れます。
+            ※ Noto CJK の TTC は CFF アウトラインのため reportlab では使えません。
+            ローカルでは --font / --font-bold でフォントファイルを指定できます。
+          """
+
+          import argparse
+          import glob
+          import os
+          import re
+          import sys
+          from datetime import date, datetime
+
+          from reportlab.lib.pagesizes import A4
+          from reportlab.pdfbase import pdfmetrics
+          from reportlab.pdfbase.ttfonts import TTFont
+          from reportlab.pdfgen import canvas
+
+          WEEKDAYS_JA = ["月", "火", "水", "木", "金", "土", "日"]
+
+          FONT_CANDIDATES = [
+              "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf",
+              "/usr/share/fonts/opentype/ipaexfont-gothic/ipaexg.ttf",
+              "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf",
+              "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+          ]
+          FONT_BOLD_CANDIDATES = [
+              "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf",
+              "/usr/share/fonts/opentype/ipaexfont-gothic/ipaexg.ttf",
+              "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+          ]
+
+
+          def register_first_available(name, candidates, explicit=None):
+              """reportlab が読めるフォントを候補順に試して登録する。成功したらパスを返す"""
+              paths = ([explicit] if explicit else []) + candidates
+              for path in paths:
+                  if path and os.path.exists(path):
+                      try:
+                          pdfmetrics.registerFont(TTFont(name, path, subfontIndex=0))
+                          return path
+                      except Exception:
+                          continue
+              return None
+
+
+          def unfold_ics(text):
+              """ICS の行折り畳み (CRLF + 空白) を展開する"""
+              return re.sub(r"\r?\n[ \t]", "", text)
+
+
+          def unescape_ics(value):
+              value = value.replace("\\n", "\n").replace("\\N", "\n")
+              value = value.replace("\\,", ",").replace("\\;", ";").replace("\\\\", "\\")
+              return value
+
+
+          def parse_events(ics_text):
+              """VEVENT から (date,本文) を取り出す。本文は DESCRIPTION、無ければ SUMMARY。"""
+              events = {}
+              for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", ics_text, re.S):
+                  m = re.search(r"DTSTART(?:;VALUE=DATE)?:(\d{8})", block)
+                  if not m:
+                      continue
+                  day = datetime.strptime(m.group(1), "%Y%m%d").date()
+
+                  desc = None
+                  m_desc = re.search(r"DESCRIPTION:(.*?)(?:\r?\n[A-Z][A-Z0-9;-]*[:;]|\Z)", block, re.S)
+                  if m_desc:
+                      desc = unescape_ics(m_desc.group(1)).strip()
+                  if not desc:
+                      m_sum = re.search(r"SUMMARY:(.*?)(?:\r?\n[A-Z][A-Z0-9;-]*[:;]|\Z)", block, re.S)
+                      if m_sum:
+                          desc = unescape_ics(m_sum.group(1)).strip()
+                  if desc:
+                      events[day] = desc
+              return events
+
+
+          def load_entries(repo_root, start, end):
+              files = [os.path.join(repo_root, "oniisan.ics")]
+              files += sorted(glob.glob(os.path.join(repo_root, "Archive", "*-oniisan.ics")))
+              all_events = {}
+              for path in files:
+                  if not os.path.exists(path):
+                      continue
+                  with open(path, encoding="utf-8") as f:
+                      all_events.update(parse_events(unfold_ics(f.read())))
+              return sorted((d, t) for d, t in all_events.items() if start <= d <= end)
+
+
+          def wrap_text(text, font_name, font_size, max_width):
+              """reportlab の実測幅で文字単位に折り返す（日本語は単語区切りがないため）"""
+              lines = []
+              for paragraph in text.split("\n"):
+                  if paragraph == "":
+                      lines.append("")
+                      continue
+                  cur = ""
+                  for ch in paragraph:
+                      trial = cur + ch
+                      if pdfmetrics.stringWidth(trial, font_name, font_size) <= max_width:
+                          cur = trial
+                      else:
+                          lines.append(cur)
+                          cur = ch
+                  lines.append(cur)
+              return lines
+
+
+          def layout(entries, font_size, font_name, cell_text_width, usable_height, date_h, line_h, pad_v, gap):
+              """縦方向に詰める: 各ページは3列、エントリは列の中で上から下へ流れ、
+              列がいっぱいになったら次の列へ、3列埋まったら次のページへ。
+              戻り値: (pages, wrapped, heights) / pages は [ページ][列][エントリindex]"""
+              heights = []
+              wrapped = []
+              for _, text in entries:
+                  lines = wrap_text(text, font_name, font_size, cell_text_width)
+                  wrapped.append(lines)
+                  heights.append(pad_v * 2 + date_h + len(lines) * line_h)
+              pages = []
+              page = [[], [], []]
+              col = 0
+              used = 0.0
+              for idx, h in enumerate(heights):
+                  need = h + (gap if page[col] else 0)
+                  if page[col] and used + need > usable_height:
+                      col += 1
+                      used = 0.0
+                      need = h
+                      if col > 2:
+                          pages.append(page)
+                          page = [[], [], []]
+                          col = 0
+                  page[col].append(idx)
+                  used += need
+              if any(page):
+                  pages.append(page)
+              return pages, wrapped, heights
+
+
+          def main():
+              ap = argparse.ArgumentParser(description="お兄さんメッセージを指定期間・指定枚数で A4 PDF 化")
+              ap.add_argument("--start", required=True, help="開始日 YYYY-MM-DD")
+              ap.add_argument("--end", required=True, help="終了日 YYYY-MM-DD")
+              ap.add_argument("--max-pages", type=int, default=1, help="最大ページ数 (既定: 1)")
+              ap.add_argument("--output", default="oniisan.pdf", help="出力 PDF パス")
+              ap.add_argument("--repo-root", default=".", help="oniisan.ics / Archive のあるルート")
+              ap.add_argument("--font", default=None, help="日本語フォント (Regular)")
+              ap.add_argument("--font-bold", default=None, help="日本語フォント (Bold)")
+              args = ap.parse_args()
+
+              start = datetime.strptime(args.start, "%Y-%m-%d").date()
+              end = datetime.strptime(args.end, "%Y-%m-%d").date()
+              if end < start:
+                  print("❌ --end が --start より前です", file=sys.stderr)
+                  return 1
+
+              font_path = register_first_available("OniisanSans", FONT_CANDIDATES, args.font)
+              if not font_path:
+                  print("❌ 日本語フォントが見つかりません。--font で指定するか fonts-ipafont-gothic を入れてください", file=sys.stderr)
+                  return 1
+              register_first_available("OniisanSans-Bold", FONT_BOLD_CANDIDATES, args.font_bold) \
+                  or pdfmetrics.registerFont(TTFont("OniisanSans-Bold", font_path, subfontIndex=0))
+
+              entries = load_entries(args.repo_root, start, end)
+              if not entries:
+                  print(f"❌ {args.start} 〜 {args.end} の期間にお兄さんのデータがありません", file=sys.stderr)
+                  return 1
+              print(f"📄 対象: {len(entries)} 日分 ({entries[0][0]} 〜 {entries[-1][0]})")
+
+              page_w, page_h = A4
+              margin = 28.0
+              gap = 8.0
+              cols = 3
+              cell_w = (page_w - margin * 2 - gap * (cols - 1)) / cols
+              pad = 6.0
+              cell_text_width = cell_w - pad * 2
+              usable_height = page_h - margin * 2
+
+              # 収まる最大のフォントサイズを探す
+              chosen = None
+              size = 11.0
+              while size >= 4.5:
+                  line_h = size * 1.45
+                  date_h = size + 4
+                  pages, wrapped, heights = layout(
+                      entries, size, "OniisanSans", cell_text_width, usable_height, date_h, line_h, pad, gap
+                  )
+                  if len(pages) <= args.max_pages:
+                      chosen = (size, pages, wrapped, heights, line_h, date_h)
+                      break
+                  size -= 0.5
+              if chosen is None:
+                  print(f"❌ 最小フォントでも {args.max_pages} 枚に収まりませんでした", file=sys.stderr)
+                  return 1
+              font_size, pages, wrapped, heights, line_h, date_h = chosen
+              print(f"🔤 フォントサイズ: {font_size}pt / ページ数: {len(pages)}")
+
+              c = canvas.Canvas(args.output, pagesize=A4)  # A4 縦
+              c.setTitle(f"体操のお兄さん {args.start} - {args.end}")
+              for page in pages:
+                  for col in range(cols):
+                      x = margin + col * (cell_w + gap)
+                      y_top = page_h - margin
+                      for idx in page[col]:
+                          h = heights[idx]
+                          y = y_top - h
+                          day, _ = entries[idx]
+                          # 日付（枠線なし）
+                          c.setFillColorRGB(0.1, 0.2, 0.45)
+                          c.setFont("OniisanSans-Bold", font_size + 1)
+                          label = f"{day.year}/{day.month}/{day.day}（{WEEKDAYS_JA[day.weekday()]}）"
+                          c.drawString(x + pad, y + h - pad - (font_size + 1), label)
+                          # 本文
+                          c.setFillColorRGB(0.1, 0.1, 0.1)
+                          c.setFont("OniisanSans", font_size)
+                          ty = y + h - pad - date_h - font_size
+                          for line in wrapped[idx]:
+                              c.drawString(x + pad, ty, line)
+                              ty -= line_h
+                          y_top = y - gap
+                  c.showPage()
+              c.save()
+              print(f"✅ 出力: {args.output}")
+              return 0
+
+
+          if __name__ == "__main__":
+              sys.exit(main())
+
+          PYEOF
+          python oniisan_pdf.py \
+            --start "${{ inputs.start_date }}" \
+            --end "${{ inputs.end_date }}" \
+            --max-pages "${{ inputs.max_pages }}" \
+            --output "oniisan_${{ inputs.start_date }}_${{ inputs.end_date }}.pdf"
+
+      - name: 📤 Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: oniisan-pdf-${{ inputs.start_date }}_${{ inputs.end_date }}
+          path: oniisan_${{ inputs.start_date }}_${{ inputs.end_date }}.pdf
+          retention-days: 90
