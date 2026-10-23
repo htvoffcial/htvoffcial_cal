@@ -234,11 +234,11 @@ jobs:
               print(f"📄 対象: {len(entries)} 日分 ({entries[0][0]} 〜 {entries[-1][0]})")
 
               page_w, page_h = A4
-              margin = 28.0
-              gap = 8.0
+              margin = 20
+              gap = 2
               cols = 3
               cell_w = (page_w - margin * 2 - gap * (cols - 1)) / cols
-              pad = 6.0
+              pad = 2
               cell_text_width = cell_w - pad * 2
               usable_height = page_h - margin * 2
 
