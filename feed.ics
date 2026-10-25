@@ -220,4 +220,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/354
 UID:discussion-354-2026-10-24@htvoffcial
 DESCRIPTION:ガウス・ボンネの定理ってなにに使うんだろ 2π*オイラー標数“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:雨が続くね、模試申し込まなきゃ
+URL:https://github.com/htvoffcial/htvoffcial/discussions/356
+UID:discussion-356-2026-10-25@htvoffcial
+DESCRIPTION:総合型はだいたいみんな11月頭に結果出るらしい。わしもそう。一般の勉強も進めないと“…”
+END:VEVENT
 END:VCALENDAR
