@@ -12,4 +12,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/369
 UID:discussion-369-2026-11-01@htvoffcial
 DESCRIPTION:【予告】3/14の運用開始から8ヶ月記念の11/14は、いつもGemma4が書くお兄さんコメントを、はるはる氏が書いちゃいます！“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:総合型選抜、合格させていただきました
+URL:https://github.com/htvoffcial/htvoffcial/discussions/371
+UID:discussion-371-2026-11-02@htvoffcial
+DESCRIPTION:`支えてくださった皆さん、ありがとうございました。`“…”
+END:VEVENT
 END:VCALENDAR
