@@ -28,4 +28,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/373
 UID:discussion-373-2026-11-03@htvoffcial
 DESCRIPTION:これまでもなるべく開発時間は減らしてきましたが、もはや、大学受験に向け大詰めで文字通り1秒たりとも無駄にできないため、GitHub Discussions以外の“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:カラオケの遅いポテトや面倒な放課後を見ると終わる
+URL:https://github.com/htvoffcial/htvoffcial/discussions/374
+UID:discussion-374-2026-11-04@htvoffcial
+DESCRIPTION:カラオケの遅いポテトや面倒な放課後を見ると終わる。そして、コンビニのめんどくさい本垢は本当に退屈なすぎる。“…”
+END:VEVENT
 END:VCALENDAR
