@@ -92,4 +92,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/388
 UID:discussion-388-2026-11-11@htvoffcial
 DESCRIPTION:気づいたら106個…どう整理しようか GitHub歴7年、エンジニア歴11年、だいぶ節約してきたつもりだったけど😅“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:今日イチの絶景
+URL:https://github.com/htvoffcial/htvoffcial/discussions/390
+UID:discussion-390-2026-11-12@htvoffcial
+DESCRIPTION:朝一番の体育で見たホームランは、すごく気持ちが良かった“…”
+END:VEVENT
 END:VCALENDAR
