@@ -116,4 +116,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/396
 UID:discussion-396-2026-11-15@htvoffcial
 DESCRIPTION:今日晴れてたら外出たんだけどなー“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:【歴史の窓】「ADHD包囲網」の虚構と実態
+URL:https://github.com/htvoffcial/htvoffcial/discussions/400
+UID:discussion-400-2026-11-17@htvoffcial
+DESCRIPTION:21世紀初頭の受験生や開発者の間で、作業効率の急激な低下を説明する概念として「ADHD包囲網（あるいはADHD包囲陣）」という言説が広く流布した。これは、Att“…”
+END:VEVENT
 END:VCALENDAR
