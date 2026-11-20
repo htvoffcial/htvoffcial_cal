@@ -140,4 +140,12 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/402
 UID:discussion-402-2026-11-19@htvoffcial
 DESCRIPTION:文化祭がまた買うと、あやしいスマホはチル。だから、両思いのセンチメンタルな筆箱もいるって感じ。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:お久しぶりです
+URL:https://github.com/htvoffcial/htvoffcial/discussions/404
+UID:discussion-404-2026-11-20@htvoffcial
+DESCRIPTION:２日ほど狂文にお付き合いいただきありがとうございました。今日からまたはるはるがお送りします。“…”
+END:VEVENT
 END:VCALENDAR
