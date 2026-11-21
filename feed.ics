@@ -148,4 +148,20 @@ URL:https://github.com/htvoffcial/htvoffcial/discussions/404
 UID:discussion-404-2026-11-20@htvoffcial
 DESCRIPTION:２日ほど狂文にお付き合いいただきありがとうございました。今日からまたはるはるがお送りします。“…”
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:国会図書館で読んだラズパイマガジン
+URL:https://github.com/htvoffcial/htvoffcial/discussions/406
+UID:discussion-406-2026-11-21@htvoffcial
+DESCRIPTION:前に行った国会図書館で読んだラズパイマガジンの、Armなどのアーキテクチャが解説されてた数ページ、めっちゃ面白かった。RP2350の特徴とか、Cortex M4“…”
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:モバ充を飲むときのセンシティブなファミチキは悲しい
+URL:https://github.com/htvoffcial/htvoffcial/discussions/405
+UID:discussion-405-2026-11-21@htvoffcial
+DESCRIPTION:モバ充を飲むときのセンシティブなファミチキは悲しい。でも、雨を始めるときのエグい制服ディズニーも聞き返す気がする。“…”
+END:VEVENT
 END:VCALENDAR
